@@ -9,23 +9,23 @@
   "statusText": "SKIN HUB ONLINE",
   "quote": "CODE BENEATH THE LIGHT",
   "image": "background.jpg",
-  "appearance": "auto",
+  "appearance": "dark",
   "art": {
-    "focusX": 0.72,
-    "focusY": 0.42,
+    "focusX": 0.74,
+    "focusY": 0.4,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
     "background": "#071018",
-    "panel": "rgba(10,22,30,0.55)",
-    "panelAlt": "rgba(16,40,40,0.42)",
+    "panel": "rgba(10,22,30,0.38)",
+    "panelAlt": "rgba(16,40,40,0.30)",
     "accent": "#5CFFB0",
     "accentAlt": "#A78BFF",
     "secondary": "#4CC9C0",
     "highlight": "#EAFBFF",
     "text": "#F2FBFF",
     "muted": "#9BB8B8",
-    "line": "rgba(92,255,176,0.32)"
+    "line": "rgba(92,255,176,0.30)"
   }
 }

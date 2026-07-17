@@ -9,23 +9,23 @@
   "statusText": "SKIN HUB ONLINE",
   "quote": "MAKE TODAY SPARKLE",
   "image": "background.jpg",
-  "appearance": "auto",
+  "appearance": "light",
   "art": {
-    "focusX": 0.72,
-    "focusY": 0.42,
+    "focusX": 0.74,
+    "focusY": 0.4,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#2A1420",
-    "panel": "rgba(42,20,32,0.55)",
-    "panelAlt": "rgba(70,30,50,0.45)",
-    "accent": "#FF7EB3",
-    "accentAlt": "#FFC1D9",
-    "secondary": "#E8A0C8",
-    "highlight": "#FFF0F6",
-    "text": "#FFF8FB",
-    "muted": "#E2B8C9",
-    "line": "rgba(255,126,179,0.35)"
+    "background": "#FFF1F5",
+    "panel": "rgba(255,248,250,0.42)",
+    "panelAlt": "rgba(255,230,238,0.35)",
+    "accent": "#FF6FAE",
+    "accentAlt": "#FF9BC8",
+    "secondary": "#E89AC4",
+    "highlight": "#FFFFFF",
+    "text": "#4A2438",
+    "muted": "#9A6B7E",
+    "line": "rgba(255,111,174,0.28)"
   }
 }

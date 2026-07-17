@@ -9,23 +9,23 @@
   "statusText": "SKIN HUB ONLINE",
   "quote": "BUILD BEYOND THE HORIZON",
   "image": "background.jpg",
-  "appearance": "auto",
+  "appearance": "dark",
   "art": {
-    "focusX": 0.72,
-    "focusY": 0.42,
+    "focusX": 0.74,
+    "focusY": 0.4,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#061018",
-    "panel": "rgba(8,20,32,0.55)",
-    "panelAlt": "rgba(12,36,56,0.45)",
+    "background": "#040C14",
+    "panel": "rgba(6,16,28,0.38)",
+    "panelAlt": "rgba(10,28,48,0.30)",
     "accent": "#3DD6FF",
     "accentAlt": "#7AE7FF",
     "secondary": "#5B8CFF",
     "highlight": "#E8F7FF",
     "text": "#F2FAFF",
     "muted": "#9BB8C9",
-    "line": "rgba(61,214,255,0.35)"
+    "line": "rgba(61,214,255,0.32)"
   }
 }

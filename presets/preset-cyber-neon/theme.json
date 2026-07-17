@@ -9,23 +9,23 @@
   "statusText": "SKIN HUB ONLINE",
   "quote": "LIGHT UP THE NIGHT",
   "image": "background.jpg",
-  "appearance": "auto",
+  "appearance": "dark",
   "art": {
-    "focusX": 0.72,
-    "focusY": 0.42,
+    "focusX": 0.74,
+    "focusY": 0.4,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
     "background": "#0A0614",
-    "panel": "rgba(16,10,28,0.55)",
-    "panelAlt": "rgba(36,16,48,0.45)",
+    "panel": "rgba(18,10,32,0.40)",
+    "panelAlt": "rgba(40,16,56,0.32)",
     "accent": "#FF2D95",
     "accentAlt": "#39F3FF",
     "secondary": "#B44CFF",
-    "highlight": "#F5E9FF",
+    "highlight": "#F8F0FF",
     "text": "#F8F2FF",
     "muted": "#B7A0C9",
-    "line": "rgba(255,45,149,0.36)"
+    "line": "rgba(255,45,149,0.34)"
   }
 }

@@ -9,23 +9,23 @@
   "statusText": "SKIN HUB ONLINE",
   "quote": "LET IDEAS BLOOM",
   "image": "background.jpg",
-  "appearance": "auto",
+  "appearance": "light",
   "art": {
-    "focusX": 0.72,
-    "focusY": 0.42,
+    "focusX": 0.74,
+    "focusY": 0.4,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#1C100C",
-    "panel": "rgba(36,20,14,0.55)",
-    "panelAlt": "rgba(64,32,20,0.45)",
-    "accent": "#FF9A5A",
-    "accentAlt": "#FFC089",
+    "background": "#FFF4EA",
+    "panel": "rgba(255,248,240,0.42)",
+    "panelAlt": "rgba(255,230,210,0.35)",
+    "accent": "#FF8A4A",
+    "accentAlt": "#FFB07A",
     "secondary": "#E07A4A",
-    "highlight": "#FFF1E4",
-    "text": "#FFF8F2",
-    "muted": "#D4B09A",
-    "line": "rgba(255,154,90,0.34)"
+    "highlight": "#FFFFFF",
+    "text": "#4A2A18",
+    "muted": "#A07A60",
+    "line": "rgba(255,138,74,0.28)"
   }
 }

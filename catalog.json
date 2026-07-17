@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T04:11:10.665Z",
+  "updatedAt": "2026-07-17T04:12:38.921Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -26,12 +26,12 @@
     {
       "id": "preset-aurora-veil",
       "name": "Aurora Veil",
-      "tagline": "在极光夜空下，把灵感写进每一行代码。",
-      "image": "background.png",
-      "bytes": 500349,
+      "tagline": "极光落下时，把灵感轻轻接住。",
+      "image": "background.jpg",
+      "bytes": 687497,
       "path": "presets/preset-aurora-veil",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil",
-      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -123,13 +123,13 @@
     },
     {
       "id": "preset-open-portal",
-      "name": "Open Portal",
-      "tagline": "Turn ideas into working software.",
-      "image": "background.png",
-      "bytes": 99727,
+      "name": "开光之门",
+      "tagline": "门开了，灵感就进来了。",
+      "image": "background.jpg",
+      "bytes": 978480,
       "path": "presets/preset-open-portal",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal",
-      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"

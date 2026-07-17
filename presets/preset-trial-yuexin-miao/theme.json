@@ -3,7 +3,7 @@
   "id": "preset-trial-yuexin-miao",
   "name": "试装 · 月薪喵",
   "brandSubtitle": " · AGENT SKIN HUB",
-  "tagline": "这个月工资，先换成一只软乎乎的陪伴。",
+  "tagline": "捂鼻散味，这个月工资又去哪了。",
   "projectPrefix": "选择项目 · ",
   "projectLabel": "◉  选择项目",
   "statusText": "AGENT SKIN HUB ONLINE",
@@ -11,21 +11,21 @@
   "image": "background.jpg",
   "appearance": "light",
   "art": {
-    "focusX": 0.78,
-    "focusY": 0.48,
+    "focusX": 0.82,
+    "focusY": 0.55,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#FFF6F0",
-    "panel": "#FFFCF9",
-    "panelAlt": "#FFE8DC",
-    "accent": "#E07A5F",
-    "accentAlt": "#F2A7C3",
-    "secondary": "#7EB6D9",
-    "highlight": "#D45D6A",
+    "background": "#FFF8E8",
+    "panel": "#FFFCF4",
+    "panelAlt": "#F3E4C8",
+    "accent": "#3A63AD",
+    "accentAlt": "#C8AD8D",
+    "secondary": "#5B463A",
+    "highlight": "#2F4F8F",
     "text": "#2A2220",
     "muted": "#6B5750",
-    "line": "rgba(224,122,95,.26)"
+    "line": "rgba(90,70,50,.22)"
   }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T11:38:30.155Z",
+  "updatedAt": "2026-07-17T11:43:58.499Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -252,9 +252,9 @@
     {
       "id": "preset-trial-yuexin-miao",
       "name": "试装 · 月薪喵",
-      "tagline": "这个月工资，先换成一只软乎乎的陪伴。",
+      "tagline": "捂鼻散味，这个月工资又去哪了。",
       "image": "background.jpg",
-      "bytes": 756364,
+      "bytes": 436688,
       "path": "presets/preset-trial-yuexin-miao",
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao",
       "wallpaperUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao/background.jpg",

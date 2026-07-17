@@ -1,6 +1,8 @@
 # 试装 · 月薪喵
 
-原创氛围壁纸，灵感来自近期抖音/表情包热梗「月薪喵」的奶油布偶猫与软萌打工感，**非官方 IP、非原作表情包复制**。
+氛围皮肤。视觉参考全网爆火的「月薪喵」表情包辨识度：
+极简手绘贴纸风、白身子、米棕耳朵/头顶、蓝色椭圆竖眼、粗棕描边、捂鼻散味姿态。
 
-- Rights: original illustration generated for agent-skin-hub
-- Compatible: ProvDex Codex appearance / agent-skin-hub apply script
+**原创绘制，非官方表情包原图复制，非商业授权 IP 资产。**
+
+- Compatible: ProvDex / agent-skin-hub apply script

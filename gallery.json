@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T11:38:30.207Z",
+  "updatedAt": "2026-07-17T11:43:58.537Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "rawBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main",
   "catalogUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/catalog.json",
@@ -220,17 +220,17 @@
       "concept": {
         "path": "docs/ads/24-yuexin-miao-glass.jpg",
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/24-yuexin-miao-glass.jpg",
-        "bytes": 255029
+        "bytes": 242743
       },
       "wallpaper": {
         "path": "presets/preset-trial-yuexin-miao/background.jpg",
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao/background.jpg",
-        "bytes": 756364
+        "bytes": 436688
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-yuexin-miao.jpg",
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-yuexin-miao.jpg",
-        "bytes": 61250
+        "bytes": 38522
       },
       "presetId": "preset-trial-yuexin-miao",
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao"
@@ -660,12 +660,12 @@
       "wallpaper": {
         "path": "presets/preset-trial-yuexin-miao/background.jpg",
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao/background.jpg",
-        "bytes": 756364
+        "bytes": 436688
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-yuexin-miao.jpg",
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-yuexin-miao.jpg",
-        "bytes": 61250
+        "bytes": 38522
       },
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao"
     }

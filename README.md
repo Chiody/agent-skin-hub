@@ -53,6 +53,13 @@
 
 ---
 
+
+## 宣传概念图（20 张）
+
+整窗画廊风格广告图（含侧栏/卡片示意），**勿当壁纸导入**：
+
+→ [`docs/ads/`](./docs/ads/) · [索引](./docs/ads/README.md)
+
 ## 怎么用
 
 1. 打开 [ProvDex](https://provdex.com)

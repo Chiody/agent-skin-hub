@@ -6,7 +6,7 @@
 set -euo pipefail
 
 PRESET_ID="${1:-}"
-HUB_RAW="${HUB_RAW:-https://raw.githubusercontent.com/Chiody/agent-skin-hub/main}"
+HUB_RAW="${HUB_RAW:-https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main}"
 ENGINE_REPO="${ENGINE_REPO:-https://github.com/Fei-Away/Codex-Dream-Skin.git}"
 STUDIO="${HOME}/.codex/codex-dream-skin-studio"
 THEMES="${HOME}/Library/Application Support/CodexDreamSkinStudio/themes"

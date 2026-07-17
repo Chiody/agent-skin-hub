@@ -9,6 +9,8 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const presetsDir = join(root, "presets");
 const now = new Date().toISOString();
+/** Prefer jsDelivr — raw.githubusercontent.com can lag ~5min after push */
+const CDN = "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main";
 
 const presets = [];
 for (const name of readdirSync(presetsDir).sort()) {
@@ -28,7 +30,7 @@ for (const name of readdirSync(presetsDir).sort()) {
   }
   const previewRel = `docs/previews/${name}.jpg`;
   const previewUrl = existsSync(join(root, previewRel))
-    ? `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/${previewRel}`
+    ? `${CDN}/${previewRel}`
     : "";
 
   presets.push({
@@ -38,8 +40,8 @@ for (const name of readdirSync(presetsDir).sort()) {
     image,
     bytes,
     path: `presets/${name}`,
-    downloadBase: `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/${name}`,
-    wallpaperUrl: `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/${name}/${image}`,
+    downloadBase: `${CDN}/presets/${name}`,
+    wallpaperUrl: `${CDN}/presets/${name}/${image}`,
     previewUrl,
     sourceUrl,
     risk: "low",

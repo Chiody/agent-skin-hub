@@ -7,7 +7,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const RAW = "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main";
+const RAW = "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main";
 const now = new Date().toISOString();
 
 /** Glass Codex mockups (v2). ProvDex slogans live in sidebar 项目 list. */

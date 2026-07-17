@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T11:37:30.525Z",
+  "updatedAt": "2026-07-17T11:38:30.207Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
-  "rawBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main",
-  "catalogUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/catalog.json",
+  "rawBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main",
+  "catalogUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/catalog.json",
   "usage": {
     "concept": "营销/画廊展示用整窗效果图（v2 玻璃风）",
     "wallpaper": "可导入的纯背景底图（16:9）",
@@ -19,21 +19,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/01-sakura-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/01-sakura-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/01-sakura-glass.jpg",
         "bytes": 905208
       },
       "wallpaper": {
         "path": "presets/preset-trial-rose-soft/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rose-soft/background.jpg",
         "bytes": 640395
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-rose-soft.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-rose-soft.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-rose-soft.jpg",
         "bytes": 186564
       },
       "presetId": "preset-trial-rose-soft",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rose-soft"
     },
     {
       "id": "02-caishen-glass",
@@ -43,21 +43,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/02-caishen-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/02-caishen-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/02-caishen-glass.jpg",
         "bytes": 1263150
       },
       "wallpaper": {
         "path": "presets/preset-trial-caishen/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-caishen/background.jpg",
         "bytes": 1015810
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-caishen.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-caishen.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-caishen.jpg",
         "bytes": 238077
       },
       "presetId": "preset-trial-caishen",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-caishen"
     },
     {
       "id": "03-guochao-glass",
@@ -67,21 +67,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/03-guochao-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/03-guochao-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/03-guochao-glass.jpg",
         "bytes": 1371769
       },
       "wallpaper": {
         "path": "presets/preset-trial-neon-rain/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain/background.jpg",
         "bytes": 1189571
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-neon-rain.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-neon-rain.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-neon-rain.jpg",
         "bytes": 192500
       },
       "presetId": "preset-trial-neon-rain",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain"
     },
     {
       "id": "04-rooftop-glass",
@@ -91,7 +91,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/04-rooftop-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/04-rooftop-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/04-rooftop-glass.jpg",
         "bytes": 1047329
       },
       "wallpaper": null,
@@ -107,7 +107,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/05-xianxia-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/05-xianxia-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/05-xianxia-glass.jpg",
         "bytes": 1084763
       },
       "wallpaper": null,
@@ -123,7 +123,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/06-kpop-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/06-kpop-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/06-kpop-glass.jpg",
         "bytes": 942263
       },
       "wallpaper": null,
@@ -139,7 +139,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/07-kpop-boy-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/07-kpop-boy-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/07-kpop-boy-glass.jpg",
         "bytes": 915218
       },
       "wallpaper": null,
@@ -155,7 +155,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/08-overtime-meme.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/08-overtime-meme.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/08-overtime-meme.jpg",
         "bytes": 1101597
       },
       "wallpaper": null,
@@ -171,7 +171,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/09-hanfu-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/09-hanfu-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/09-hanfu-glass.jpg",
         "bytes": 856919
       },
       "wallpaper": null,
@@ -187,7 +187,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/10-vtuber-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/10-vtuber-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/10-vtuber-glass.jpg",
         "bytes": 1321699
       },
       "wallpaper": null,
@@ -203,7 +203,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/11-koi-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/11-koi-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/11-koi-glass.jpg",
         "bytes": 1282337
       },
       "wallpaper": null,
@@ -219,21 +219,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/24-yuexin-miao-glass.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/24-yuexin-miao-glass.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/24-yuexin-miao-glass.jpg",
         "bytes": 255029
       },
       "wallpaper": {
         "path": "presets/preset-trial-yuexin-miao/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao/background.jpg",
         "bytes": 756364
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-yuexin-miao.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-yuexin-miao.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-yuexin-miao.jpg",
         "bytes": 61250
       },
       "presetId": "preset-trial-yuexin-miao",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao"
     },
     {
       "id": "12-synthwave",
@@ -243,7 +243,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/12-synthwave.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/12-synthwave.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/12-synthwave.jpg",
         "bytes": 2138592
       },
       "wallpaper": null,
@@ -259,7 +259,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/13-nordic-minimal.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/13-nordic-minimal.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/13-nordic-minimal.jpg",
         "bytes": 1458695
       },
       "wallpaper": null,
@@ -275,21 +275,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/14-cyber-rain.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/14-cyber-rain.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/14-cyber-rain.jpg",
         "bytes": 1935045
       },
       "wallpaper": {
         "path": "presets/preset-trial-neon-rain/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain/background.jpg",
         "bytes": 1189571
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-neon-rain.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-neon-rain.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-neon-rain.jpg",
         "bytes": 192500
       },
       "presetId": "preset-trial-neon-rain",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain"
     },
     {
       "id": "15-ocean-coast",
@@ -299,7 +299,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/15-ocean-coast.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/15-ocean-coast.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/15-ocean-coast.jpg",
         "bytes": 1673724
       },
       "wallpaper": null,
@@ -315,7 +315,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/16-coffee-cozy.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/16-coffee-cozy.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/16-coffee-cozy.jpg",
         "bytes": 1745834
       },
       "wallpaper": null,
@@ -331,7 +331,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/17-matrix-terminal.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/17-matrix-terminal.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/17-matrix-terminal.jpg",
         "bytes": 1531249
       },
       "wallpaper": null,
@@ -347,21 +347,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/18-sakura-night.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/18-sakura-night.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/18-sakura-night.jpg",
         "bytes": 2070098
       },
       "wallpaper": {
         "path": "presets/preset-sakura-dawn/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-sakura-dawn/background.jpg",
         "bytes": 504541
       },
       "livePreview": {
         "path": "docs/previews/preset-sakura-dawn.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-sakura-dawn.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-sakura-dawn.jpg",
         "bytes": 59871
       },
       "presetId": "preset-sakura-dawn",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-sakura-dawn"
     },
     {
       "id": "19-steampunk",
@@ -371,7 +371,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/19-steampunk.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/19-steampunk.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/19-steampunk.jpg",
         "bytes": 3038539
       },
       "wallpaper": null,
@@ -387,7 +387,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/20-desert-sunset.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/20-desert-sunset.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/20-desert-sunset.jpg",
         "bytes": 2052359
       },
       "wallpaper": null,
@@ -403,21 +403,21 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/21-snow-cabin.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/21-snow-cabin.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/21-snow-cabin.jpg",
         "bytes": 2292812
       },
       "wallpaper": {
         "path": "presets/preset-snow-scape/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-snow-scape/background.jpg",
         "bytes": 657849
       },
       "livePreview": {
         "path": "docs/previews/preset-snow-scape.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-snow-scape.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-snow-scape.jpg",
         "bytes": 114814
       },
       "presetId": "preset-snow-scape",
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-snow-scape"
     },
     {
       "id": "22-space-nasa",
@@ -427,7 +427,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/22-space-nasa.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/22-space-nasa.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/22-space-nasa.jpg",
         "bytes": 1997753
       },
       "wallpaper": null,
@@ -443,7 +443,7 @@
       "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
       "concept": {
         "path": "docs/ads/23-saas-teal.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/23-saas-teal.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/23-saas-teal.jpg",
         "bytes": 1614875
       },
       "wallpaper": null,
@@ -457,217 +457,217 @@
       "id": "preset-amber-dusk",
       "wallpaper": {
         "path": "presets/preset-amber-dusk/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-amber-dusk/background.jpg",
         "bytes": 599502
       },
       "livePreview": null,
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-amber-dusk"
     },
     {
       "id": "preset-aurora-veil",
       "wallpaper": {
         "path": "presets/preset-aurora-veil/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-aurora-veil/background.jpg",
         "bytes": 687497
       },
       "livePreview": {
         "path": "docs/previews/preset-aurora-veil.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-aurora-veil.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-aurora-veil.jpg",
         "bytes": 72911
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-aurora-veil"
     },
     {
       "id": "preset-azure-matrix",
       "wallpaper": {
         "path": "presets/preset-azure-matrix/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-azure-matrix/background.jpg",
         "bytes": 756777
       },
       "livePreview": {
         "path": "docs/previews/preset-azure-matrix.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-azure-matrix.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-azure-matrix.jpg",
         "bytes": 143414
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-azure-matrix"
     },
     {
       "id": "preset-cyber-neon",
       "wallpaper": {
         "path": "presets/preset-cyber-neon/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-cyber-neon/background.jpg",
         "bytes": 764387
       },
       "livePreview": {
         "path": "docs/previews/preset-cyber-neon.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-cyber-neon.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-cyber-neon.jpg",
         "bytes": 135755
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-cyber-neon"
     },
     {
       "id": "preset-deep-space-mission-control",
       "wallpaper": {
         "path": "presets/preset-deep-space-mission-control/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-deep-space-mission-control/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-deep-space-mission-control/background.jpg",
         "bytes": 443750
       },
       "livePreview": null,
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-deep-space-mission-control"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-deep-space-mission-control"
     },
     {
       "id": "preset-ember-bloom",
       "wallpaper": {
         "path": "presets/preset-ember-bloom/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-ember-bloom/background.jpg",
         "bytes": 884136
       },
       "livePreview": {
         "path": "docs/previews/preset-ember-bloom.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-ember-bloom.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-ember-bloom.jpg",
         "bytes": 140331
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-ember-bloom"
     },
     {
       "id": "preset-forest-mist",
       "wallpaper": {
         "path": "presets/preset-forest-mist/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-forest-mist/background.jpg",
         "bytes": 814841
       },
       "livePreview": {
         "path": "docs/previews/preset-forest-mist.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-forest-mist.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-forest-mist.jpg",
         "bytes": 36264
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-forest-mist"
     },
     {
       "id": "preset-midnight-aurora",
       "wallpaper": {
         "path": "presets/preset-midnight-aurora/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-midnight-aurora/background.jpg",
         "bytes": 679127
       },
       "livePreview": {
         "path": "docs/previews/preset-midnight-aurora.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-midnight-aurora.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-midnight-aurora.jpg",
         "bytes": 127756
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-midnight-aurora"
     },
     {
       "id": "preset-open-portal",
       "wallpaper": {
         "path": "presets/preset-open-portal/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-open-portal/background.jpg",
         "bytes": 978480
       },
       "livePreview": {
         "path": "docs/previews/preset-open-portal.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-open-portal.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-open-portal.jpg",
         "bytes": 42560
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-open-portal"
     },
     {
       "id": "preset-sakura-dawn",
       "wallpaper": {
         "path": "presets/preset-sakura-dawn/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-sakura-dawn/background.jpg",
         "bytes": 504541
       },
       "livePreview": {
         "path": "docs/previews/preset-sakura-dawn.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-sakura-dawn.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-sakura-dawn.jpg",
         "bytes": 59871
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-sakura-dawn"
     },
     {
       "id": "preset-snow-scape",
       "wallpaper": {
         "path": "presets/preset-snow-scape/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-snow-scape/background.jpg",
         "bytes": 657849
       },
       "livePreview": {
         "path": "docs/previews/preset-snow-scape.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-snow-scape.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-snow-scape.jpg",
         "bytes": 114814
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-snow-scape"
     },
     {
       "id": "preset-strawberry-starlight",
       "wallpaper": {
         "path": "presets/preset-strawberry-starlight/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-strawberry-starlight/background.jpg",
         "bytes": 754987
       },
       "livePreview": {
         "path": "docs/previews/preset-strawberry-starlight.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-strawberry-starlight.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-strawberry-starlight.jpg",
         "bytes": 126256
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-strawberry-starlight"
     },
     {
       "id": "preset-trial-caishen",
       "wallpaper": {
         "path": "presets/preset-trial-caishen/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-caishen/background.jpg",
         "bytes": 1015810
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-caishen.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-caishen.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-caishen.jpg",
         "bytes": 238077
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-caishen"
     },
     {
       "id": "preset-trial-neon-rain",
       "wallpaper": {
         "path": "presets/preset-trial-neon-rain/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain/background.jpg",
         "bytes": 1189571
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-neon-rain.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-neon-rain.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-neon-rain.jpg",
         "bytes": 192500
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain"
     },
     {
       "id": "preset-trial-rose-soft",
       "wallpaper": {
         "path": "presets/preset-trial-rose-soft/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rose-soft/background.jpg",
         "bytes": 640395
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-rose-soft.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-rose-soft.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-rose-soft.jpg",
         "bytes": 186564
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rose-soft"
     },
     {
       "id": "preset-trial-yuexin-miao",
       "wallpaper": {
         "path": "presets/preset-trial-yuexin-miao/background.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao/background.jpg",
         "bytes": 756364
       },
       "livePreview": {
         "path": "docs/previews/preset-trial-yuexin-miao.jpg",
-        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-yuexin-miao.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-trial-yuexin-miao.jpg",
         "bytes": 61250
       },
-      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao"
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao"
     }
   ]
 }

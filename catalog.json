@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T06:34:19.713Z",
+  "updatedAt": "2026-07-17T08:26:14.711Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -17,6 +17,8 @@
       "bytes": 599502,
       "path": "presets/preset-amber-dusk",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk/background.jpg",
+      "previewUrl": "",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -31,6 +33,8 @@
       "bytes": 687497,
       "path": "presets/preset-aurora-veil",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-aurora-veil.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -45,6 +49,8 @@
       "bytes": 756777,
       "path": "presets/preset-azure-matrix",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-azure-matrix.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -59,6 +65,8 @@
       "bytes": 764387,
       "path": "presets/preset-cyber-neon",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-cyber-neon.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -73,6 +81,8 @@
       "bytes": 443750,
       "path": "presets/preset-deep-space-mission-control",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-deep-space-mission-control",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-deep-space-mission-control/background.jpg",
+      "previewUrl": "",
       "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
       "risk": "low",
       "tags": [
@@ -87,6 +97,8 @@
       "bytes": 884136,
       "path": "presets/preset-ember-bloom",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-ember-bloom.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -101,6 +113,8 @@
       "bytes": 814841,
       "path": "presets/preset-forest-mist",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-forest-mist.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -115,6 +129,8 @@
       "bytes": 679127,
       "path": "presets/preset-midnight-aurora",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-midnight-aurora.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -129,6 +145,8 @@
       "bytes": 978480,
       "path": "presets/preset-open-portal",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-open-portal.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -143,6 +161,8 @@
       "bytes": 504541,
       "path": "presets/preset-sakura-dawn",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-sakura-dawn.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -157,6 +177,8 @@
       "bytes": 657849,
       "path": "presets/preset-snow-scape",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-snow-scape.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -171,6 +193,8 @@
       "bytes": 754987,
       "path": "presets/preset-strawberry-starlight",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-strawberry-starlight.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -182,9 +206,11 @@
       "name": "试装 · 财神打工",
       "tagline": "今天先把项目搞赚钱。",
       "image": "background.jpg",
-      "bytes": 1189571,
+      "bytes": 1015810,
       "path": "presets/preset-trial-caishen",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-caishen/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-caishen.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -199,6 +225,8 @@
       "bytes": 1189571,
       "path": "presets/preset-trial-neon-rain",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-neon-rain.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [
@@ -210,9 +238,11 @@
       "name": "试装 · 柔光玫瑰",
       "tagline": "把柔光与玫瑰，带进今天的工作台。",
       "image": "background.jpg",
-      "bytes": 714145,
+      "bytes": 640395,
       "path": "presets/preset-trial-rose-soft",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-rose-soft.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [

@@ -26,6 +26,11 @@ for (const name of readdirSync(presetsDir).sort()) {
     const m = readFileSync(sourceMd, "utf8").match(/https?:\/\/[^\s)]+/);
     if (m) sourceUrl = m[0];
   }
+  const previewRel = `docs/previews/${name}.jpg`;
+  const previewUrl = existsSync(join(root, previewRel))
+    ? `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/${previewRel}`
+    : "";
+
   presets.push({
     id: theme.id || name,
     name: theme.name || name,
@@ -34,6 +39,8 @@ for (const name of readdirSync(presetsDir).sort()) {
     bytes,
     path: `presets/${name}`,
     downloadBase: `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/${name}`,
+    wallpaperUrl: `https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/${name}/${image}`,
+    previewUrl,
     sourceUrl,
     risk: "low",
     tags: ["abstract"],

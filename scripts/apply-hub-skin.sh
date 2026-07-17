@@ -21,7 +21,7 @@ ensure_studio() {
   if [ -x "$STUDIO/scripts/switch-theme-macos.sh" ]; then
     return 0
   fi
-  printf '→ installing Codex Dream Skin engine…\n'
+  printf '→ installing agent-skin-hub engine…\n'
   TMP="$(mktemp -d /tmp/agent-skin-hub-engine.XXXXXX)"
   cleanup() { rm -rf "$TMP"; }
   trap cleanup EXIT
@@ -30,7 +30,7 @@ ensure_studio() {
       || fail "git clone failed: $ENGINE_REPO"
     ENGINE="$TMP/repo/macos"
   else
-    fail "git is required to bootstrap Dream Skin (or install ProvDex once)"
+    fail "git is required to bootstrap agent-skin-hub engine (or install ProvDex once)"
   fi
   [ -x "$ENGINE/scripts/install-dream-skin-macos.sh" ] \
     || fail "engine install script missing"

@@ -1,7 +1,5 @@
 # Source
 
-- Upstream: https://github.com/slovx2/Codex-NN
-- Path: theme-packs/azure-neon-frontier
-- License: MIT (upstream project)
-- Notes: Abstract sci-fi space platform background (no UI, no likeness, no game IP). Converted WebP→JPEG for hub compatibility; Codex-NN layoutPreset field omitted.
-- Verdict: accept
+- Original wallpaper generated for agent-skin-hub
+- Fictional adult subject / scenic art; no celebrity likeness intended
+- Rights: hub MIT for theme.json; image original to this repo

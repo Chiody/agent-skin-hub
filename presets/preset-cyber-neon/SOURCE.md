@@ -1,5 +1,5 @@
 # Source
 
-- Author: Fei-Away（社区抽象预设）
-- https://github.com/Fei-Away
-- Rights: MIT / 遵循上游 NOTICE；本仓仅再分发背景图与 theme 配置
+- Original wallpaper generated for agent-skin-hub
+- Fictional adult subject / scenic art; no celebrity likeness intended
+- Rights: hub MIT for theme.json; image original to this repo

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T03:57:13.631Z",
+  "updatedAt": "2026-07-17T04:11:10.665Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -12,12 +12,12 @@
     {
       "id": "preset-amber-dusk",
       "name": "琥珀黄昏",
-      "tagline": "暖金色的黄昏光，适合长时间的深夜编码。",
+      "tagline": "把黄昏的暖意，留在这一行代码里。",
       "image": "background.jpg",
-      "bytes": 119760,
+      "bytes": 599502,
       "path": "presets/preset-amber-dusk",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk",
-      "sourceUrl": "https://github.com/Fei-Away",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -40,12 +40,12 @@
     {
       "id": "preset-azure-matrix",
       "name": "苍蓝矩阵",
-      "tagline": "连接深空，点亮下一行代码。",
+      "tagline": "面向星门，把灵感写进深空。",
       "image": "background.jpg",
-      "bytes": 256454,
+      "bytes": 596035,
       "path": "presets/preset-azure-matrix",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix",
-      "sourceUrl": "https://github.com/slovx2/Codex-NN",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -54,12 +54,12 @@
     {
       "id": "preset-cyber-neon",
       "name": "赛博霓虹",
-      "tagline": "近黑底色上的品红与青，高对比的赛博感。",
+      "tagline": "雨夜霓虹里，灵感刚刚上线。",
       "image": "background.jpg",
-      "bytes": 129934,
+      "bytes": 614791,
       "path": "presets/preset-cyber-neon",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon",
-      "sourceUrl": "https://github.com/Fei-Away",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -82,12 +82,12 @@
     {
       "id": "preset-ember-bloom",
       "name": "Ember Bloom",
-      "tagline": "在暖光花瓣间，把热爱慢慢展开。",
-      "image": "background.png",
-      "bytes": 412007,
+      "tagline": "让暖光与花瓣，陪你把想法慢慢盛开。",
+      "image": "background.jpg",
+      "bytes": 591268,
       "path": "presets/preset-ember-bloom",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom",
-      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -96,12 +96,12 @@
     {
       "id": "preset-forest-mist",
       "name": "森野薄雾",
-      "tagline": "墨绿与晨雾，给屏幕一点自然的呼吸。",
+      "tagline": "在雾气森林里，安静地推进。",
       "image": "background.jpg",
-      "bytes": 117979,
+      "bytes": 814841,
       "path": "presets/preset-forest-mist",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist",
-      "sourceUrl": "https://github.com/Fei-Away",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -110,12 +110,12 @@
     {
       "id": "preset-midnight-aurora",
       "name": "午夜极光",
-      "tagline": "深蓝夜幕里流动的极光，安静又有张力。",
+      "tagline": "在极光底下，把今晚写成温柔的一行。",
       "image": "background.jpg",
-      "bytes": 121785,
+      "bytes": 603521,
       "path": "presets/preset-midnight-aurora",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora",
-      "sourceUrl": "https://github.com/Fei-Away",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -138,12 +138,12 @@
     {
       "id": "preset-sakura-dawn",
       "name": "樱粉晨曦",
-      "tagline": "把喜欢的粉色调进工作台，温柔但不刺眼。",
+      "tagline": "晨光里的樱花，把今天轻轻打开。",
       "image": "background.jpg",
-      "bytes": 106054,
+      "bytes": 504541,
       "path": "presets/preset-sakura-dawn",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn",
-      "sourceUrl": "https://github.com/Fei-Away",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -152,12 +152,12 @@
     {
       "id": "preset-snow-scape",
       "name": "雪景",
-      "tagline": "冰蓝雪线，清晰专注的编码氛围。",
+      "tagline": "在安静的雪色里，慢慢写完今天。",
       "image": "background.jpg",
-      "bytes": 461247,
+      "bytes": 610104,
       "path": "presets/preset-snow-scape",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape",
-      "sourceUrl": "https://github.com/chaoran162/Codex-Snow-Skin",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"
@@ -166,12 +166,12 @@
     {
       "id": "preset-strawberry-starlight",
       "name": "星莓绮梦",
-      "tagline": "把灵感藏进粉色星河。",
+      "tagline": "把柔光与玫瑰，带进今天的工作台。",
       "image": "background.jpg",
-      "bytes": 383274,
+      "bytes": 550545,
       "path": "presets/preset-strawberry-starlight",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight",
-      "sourceUrl": "https://github.com/slovx2/Codex-NN",
+      "sourceUrl": "",
       "risk": "low",
       "tags": [
         "abstract"

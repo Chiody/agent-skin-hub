@@ -2,23 +2,30 @@
   "schemaVersion": 1,
   "id": "preset-amber-dusk",
   "name": "琥珀黄昏",
-  "brandSubtitle": " · PROVDEX SKIN HUB",
-  "tagline": "暖金色的黄昏光，适合长时间的深夜编码。",
+  "brandSubtitle": " · SKIN HUB",
+  "tagline": "把黄昏的暖意，留在这一行代码里。",
   "projectPrefix": "选择项目 · ",
   "projectLabel": "◉  选择项目",
   "statusText": "SKIN HUB ONLINE",
-  "quote": "MAKE SOMETHING WONDERFUL",
+  "quote": "HOLD THE GOLDEN HOUR",
   "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.72,
+    "focusY": 0.42,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
   "colors": {
-    "background": "#17110c",
-    "panel": "#241a12",
-    "panelAlt": "#31241a",
-    "accent": "#ffb347",
-    "accentAlt": "#ffc772",
-    "secondary": "#ff8a5c",
-    "highlight": "#ffd27a",
-    "text": "#fff3e6",
-    "muted": "#c4a888",
-    "line": "rgba(255, 179, 71, .26)"
+    "background": "#24160E",
+    "panel": "rgba(20,16,20,0.52)",
+    "panelAlt": "rgba(40,28,32,0.42)",
+    "accent": "#FFB060",
+    "accentAlt": "#FFB060",
+    "secondary": "#FFB060",
+    "highlight": "#FFF8F2",
+    "text": "#FFF8F2",
+    "muted": "#C9B8B0",
+    "line": "rgba(255,255,255,0.22)"
   }
 }

@@ -19,6 +19,7 @@
 <p align="center">
   <a href="https://provdex.com">ProvDex</a> ·
   <a href="https://provdex.com/skinhub.html">Skin Hub</a> ·
+  <a href="https://provdex.com/gallery.html">效果画廊</a> ·
   <a href="./catalog.json">catalog.json</a> ·
   <a href="./gallery.json">gallery.json</a>
 </p>

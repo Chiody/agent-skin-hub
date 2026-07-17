@@ -4,10 +4,12 @@
  * Usage: node scripts/validate-preset.mjs <preset-dir>
  */
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
-import { join, basename } from "node:path";
+import { join, basename, dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const dir = process.argv[2];
-if (!dir) {
+const hubRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
+const dir = resolve(process.argv[2] || "");
+if (!process.argv[2]) {
   console.error("Usage: node scripts/validate-preset.mjs <preset-dir>");
   process.exit(2);
 }
@@ -52,7 +54,39 @@ if (!existsSync(join(dir, "SOURCE.md"))) {
   warnings.push("missing SOURCE.md (source URL + rights)");
 }
 
-// reject executables / scripts in preset
+const packPath = join(dir, "pack.json");
+if (existsSync(packPath)) {
+  try {
+    const pack = JSON.parse(readFileSync(packPath, "utf8"));
+    if (pack.galleryReady === true) {
+      if (pack.shell !== "codex-glass-v2") {
+        errors.push("galleryReady pack must set shell=codex-glass-v2");
+      }
+      for (const rel of [
+        pack.concept?.path,
+        pack.concept?.promptPath,
+        pack.wallpaper?.path,
+        pack.wallpaper?.promptPath,
+      ]) {
+        if (!rel) {
+          errors.push("galleryReady pack missing concept/wallpaper path fields");
+          break;
+        }
+        if (!existsSync(join(hubRoot, rel))) {
+          errors.push(`galleryReady missing file: ${rel}`);
+        }
+      }
+      if (!String(pack.concept?.path || "").startsWith("docs/ads/")) {
+        errors.push("galleryReady concept.path must be under docs/ads/");
+      }
+    }
+  } catch (e) {
+    errors.push(`pack.json parse error: ${e.message}`);
+  }
+} else {
+  warnings.push("missing pack.json (see docs/THEME-PACK.md)");
+}
+
 for (const name of readdirSync(dir)) {
   if (/\.(sh|ps1|exe|dll|bat|command|mjs|js|py|asar)$/i.test(name)) {
     errors.push(`disallowed file in preset pack: ${name}`);

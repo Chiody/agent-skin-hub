@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 /**
- * Build gallery.json — concept ads + optional wallpaper/live-preview pairs.
+ * Build gallery.json — PUBLIC concepts must be galleryReady Codex-glass previews only.
+ * See docs/THEME-PACK.md
  */
-import { existsSync, readdirSync, writeFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, writeFileSync, statSync, readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -10,7 +11,10 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const RAW = "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main";
 const now = new Date().toISOString();
 
-/** Glass Codex mockups (v2). ProvDex slogans live in sidebar 项目 list. */
+/**
+ * Candidate concept → preset map.
+ * Only entries whose pack.json has galleryReady:true are published.
+ */
 const CONCEPTS = [
   { id: "01-sakura-glass", file: "01-sakura-glass.jpg", name: "夜樱玻璃", group: "cn-v2", presetId: "preset-trial-rose-soft" },
   { id: "02-caishen-glass", file: "02-caishen-glass.jpg", name: "财神打工", group: "cn-v2", presetId: "preset-trial-caishen" },
@@ -24,7 +28,7 @@ const CONCEPTS = [
   { id: "10-vtuber-glass", file: "10-vtuber-glass.jpg", name: "虚拟偶像", group: "cn-v2", presetId: "preset-trial-vtuber" },
   { id: "11-koi-glass", file: "11-koi-glass.jpg", name: "锦鲤好运", group: "cn-v2", presetId: "preset-trial-koi" },
   { id: "24-yuexin-miao-glass", file: "24-yuexin-miao-glass.jpg", name: "月薪喵", group: "cn-v2", presetId: "preset-trial-yuexin-miao" },
-  // International / other
+  // intl: kept in map for regen; pack.json galleryReady=false → not published
   { id: "12-synthwave", file: "12-synthwave.jpg", name: "Synthwave 80s", group: "intl", presetId: "preset-trial-synthwave" },
   { id: "13-nordic-minimal", file: "13-nordic-minimal.jpg", name: "北欧极简", group: "intl", presetId: "preset-trial-nordic" },
   { id: "14-cyber-rain", file: "14-cyber-rain.jpg", name: "赛博雨夜", group: "intl", presetId: "preset-trial-neon-rain" },
@@ -49,35 +53,67 @@ function fileMeta(rel) {
   return { path: rel, url: abs(rel), bytes: statSync(p).size };
 }
 
+function readPack(presetId) {
+  const p = join(root, "presets", presetId, "pack.json");
+  if (!existsSync(p)) return null;
+  try {
+    return JSON.parse(readFileSync(p, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 const concepts = [];
+const skipped = [];
 for (const c of CONCEPTS) {
-  const conceptRel = `docs/ads/${c.file}`;
+  const pack = c.presetId ? readPack(c.presetId) : null;
+  const galleryReady = pack?.galleryReady === true;
+  if (!galleryReady) {
+    skipped.push(`${c.id} (${c.presetId || "no-preset"})`);
+    continue;
+  }
+
+  // 同一 preset 只能挂它 pack.json 声明的那一张预览（避免 14-cyber-rain 蹭国潮的 galleryReady）
+  const conceptRel = pack?.concept?.path || `docs/ads/${c.file}`;
+  if (pack?.concept?.path && pack.concept.path !== `docs/ads/${c.file}`) {
+    skipped.push(`${c.id} (not pack.concept.path)`);
+    continue;
+  }
+  if (!conceptRel.startsWith("docs/ads/")) {
+    console.warn(`skip bad concept path: ${conceptRel}`);
+    continue;
+  }
   const concept = fileMeta(conceptRel);
   if (!concept) {
     console.warn(`skip missing ad: ${conceptRel}`);
     continue;
   }
 
-  let wallpaper = null;
-  let livePreview = null;
-  let downloadBase = null;
-  if (c.presetId) {
-    wallpaper = fileMeta(`presets/${c.presetId}/background.jpg`);
-    livePreview = fileMeta(`docs/previews/${c.presetId}.jpg`);
-    if (wallpaper) downloadBase = abs(`presets/${c.presetId}`);
-  }
+  const wallpaper = fileMeta(pack?.wallpaper?.path || `presets/${c.presetId}/background.jpg`);
+  const livePreview = fileMeta(`docs/previews/${c.presetId}.jpg`);
+  const downloadBase = wallpaper ? abs(`presets/${c.presetId}`) : null;
+  const installCmd =
+    pack?.installCmd ||
+    `curl -fsSL ${RAW}/scripts/apply-hub-skin.sh | bash -s -- ${c.presetId}`;
 
   concepts.push({
     id: c.id,
     name: c.name,
     group: c.group,
     kind: "concept-ad",
-    note: "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+    shell: pack?.shell || "codex-glass-v2",
+    galleryReady: true,
+    note: "整窗 Codex 玻璃态预览；勿当作换肤 background 导入",
     concept,
     wallpaper,
     livePreview,
-    presetId: c.presetId || null,
+    conceptPrompt: fileMeta(pack?.concept?.promptPath || `presets/${c.presetId}/concept-prompt.md`),
+    wallpaperPrompt: fileMeta(
+      pack?.wallpaper?.promptPath || `presets/${c.presetId}/wallpaper-prompt.md`
+    ),
+    presetId: c.presetId,
     downloadBase,
+    installCmd,
   });
 }
 
@@ -88,29 +124,39 @@ for (const name of readdirSync(presetsDir).sort()) {
   if (!statSync(dir).isDirectory()) continue;
   const wallpaper = fileMeta(`presets/${name}/background.jpg`);
   if (!wallpaper) continue;
+  const pack = readPack(name);
   installables.push({
     id: name,
     wallpaper,
     livePreview: fileMeta(`docs/previews/${name}.jpg`),
     downloadBase: abs(`presets/${name}`),
+    galleryReady: pack?.galleryReady === true,
+    installCmd:
+      pack?.installCmd ||
+      `curl -fsSL ${RAW}/scripts/apply-hub-skin.sh | bash -s -- ${name}`,
   });
 }
 
 const gallery = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   name: "agent-skin-hub-gallery",
   updatedAt: now,
   homepage: "https://github.com/Chiody/agent-skin-hub",
   rawBase: RAW,
   catalogUrl: `${RAW}/catalog.json`,
+  themePackDoc: `${RAW}/docs/THEME-PACK.md`,
   usage: {
-    concept: "营销/画廊展示用整窗效果图（v2 玻璃风）",
-    wallpaper: "可导入的纯背景底图（16:9）",
-    livePreview: "真机 Codex 实拍（原生控件换色）",
+    concept: "公开画廊：仅 Codex 玻璃态整窗预览（galleryReady）",
+    wallpaper: "安装用纯背景底图（不进画廊缩略图）",
+    livePreview: "真机 Codex 实拍（可选）",
   },
   concepts,
   installables,
+  skippedFromGallery: skipped,
 };
 
 writeFileSync(join(root, "gallery.json"), JSON.stringify(gallery, null, 2) + "\n");
-console.log(`Wrote gallery.json: ${concepts.length} concepts, ${installables.length} installables`);
+console.log(
+  `Wrote gallery.json: ${concepts.length} public concepts, ${installables.length} installables, skipped ${skipped.length}`
+);
+if (skipped.length) console.log("skipped (not galleryReady):\n - " + skipped.join("\n - "));

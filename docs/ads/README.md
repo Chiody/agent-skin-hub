@@ -1,7 +1,9 @@
 # ProvDex × Codex 概念广告图
 
-> 整窗**宣传概念图**，勿当作换肤 `background.jpg` 导入。  
-> 机器可读索引：[`gallery.json`](../../gallery.json)
+> 整窗 **Codex 玻璃态预览图**，勿当作换肤 `background.jpg` 导入。  
+> 成套标准：[`docs/THEME-PACK.md`](../THEME-PACK.md)  
+> 机器可读索引：[`gallery.json`](../../gallery.json)（**仅** `galleryReady` 条目会进 ProvDex / 官网）  
+> 旧 intl 营销落地页已归档：[`archive-intl-marketing/`](./archive-intl-marketing/)
 
 ## 01–11 · 国内向玻璃风 v2
 

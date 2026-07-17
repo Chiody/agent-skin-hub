@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T04:24:33.356Z",
+  "updatedAt": "2026-07-17T06:12:56.797Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -171,6 +171,34 @@
       "bytes": 754987,
       "path": "presets/preset-strawberry-starlight",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight",
+      "sourceUrl": "",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-trial-neon-rain",
+      "name": "试装 · 霓虹雨夜",
+      "tagline": "雨夜霓虹里，灵感刚刚上线。",
+      "image": "background.jpg",
+      "bytes": 764387,
+      "path": "presets/preset-trial-neon-rain",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain",
+      "sourceUrl": "",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-trial-rose-soft",
+      "name": "试装 · 柔光玫瑰",
+      "tagline": "把柔光与玫瑰，带进今天的工作台。",
+      "image": "background.jpg",
+      "bytes": 754987,
+      "path": "presets/preset-trial-rose-soft",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft",
       "sourceUrl": "",
       "risk": "low",
       "tags": [

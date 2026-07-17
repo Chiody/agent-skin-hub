@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T11:43:58.537Z",
+  "updatedAt": "2026-07-17T13:22:47.362Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "rawBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main",
   "catalogUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/catalog.json",
@@ -94,10 +94,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/04-rooftop-glass.jpg",
         "bytes": 1047329
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-rooftop/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rooftop/background.jpg",
+        "bytes": 513921
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-rooftop",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rooftop"
     },
     {
       "id": "05-xianxia-glass",
@@ -110,10 +114,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/05-xianxia-glass.jpg",
         "bytes": 1084763
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-xianxia/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-xianxia/background.jpg",
+        "bytes": 538419
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-xianxia",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-xianxia"
     },
     {
       "id": "06-kpop-glass",
@@ -126,10 +134,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/06-kpop-glass.jpg",
         "bytes": 942263
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-kpop/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop/background.jpg",
+        "bytes": 518520
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-kpop",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop"
     },
     {
       "id": "07-kpop-boy-glass",
@@ -142,10 +154,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/07-kpop-boy-glass.jpg",
         "bytes": 915218
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-kpop-boy/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop-boy/background.jpg",
+        "bytes": 428031
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-kpop-boy",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop-boy"
     },
     {
       "id": "08-overtime-meme",
@@ -158,10 +174,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/08-overtime-meme.jpg",
         "bytes": 1101597
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-overtime/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-overtime/background.jpg",
+        "bytes": 509372
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-overtime",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-overtime"
     },
     {
       "id": "09-hanfu-glass",
@@ -174,10 +194,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/09-hanfu-glass.jpg",
         "bytes": 856919
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-hanfu/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-hanfu/background.jpg",
+        "bytes": 403190
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-hanfu",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-hanfu"
     },
     {
       "id": "10-vtuber-glass",
@@ -190,10 +214,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/10-vtuber-glass.jpg",
         "bytes": 1321699
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-vtuber/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-vtuber/background.jpg",
+        "bytes": 655712
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-vtuber",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-vtuber"
     },
     {
       "id": "11-koi-glass",
@@ -206,10 +234,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/11-koi-glass.jpg",
         "bytes": 1282337
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-koi/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-koi/background.jpg",
+        "bytes": 664684
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-koi",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-koi"
     },
     {
       "id": "24-yuexin-miao-glass",
@@ -246,10 +278,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/12-synthwave.jpg",
         "bytes": 2138592
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-synthwave/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-synthwave/background.jpg",
+        "bytes": 595536
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-synthwave",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-synthwave"
     },
     {
       "id": "13-nordic-minimal",
@@ -262,10 +298,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/13-nordic-minimal.jpg",
         "bytes": 1458695
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-nordic/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-nordic/background.jpg",
+        "bytes": 301535
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-nordic",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-nordic"
     },
     {
       "id": "14-cyber-rain",
@@ -302,10 +342,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/15-ocean-coast.jpg",
         "bytes": 1673724
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-ocean/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-ocean/background.jpg",
+        "bytes": 338203
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-ocean",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-ocean"
     },
     {
       "id": "16-coffee-cozy",
@@ -318,10 +362,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/16-coffee-cozy.jpg",
         "bytes": 1745834
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-coffee/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-coffee/background.jpg",
+        "bytes": 385504
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-coffee",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-coffee"
     },
     {
       "id": "17-matrix-terminal",
@@ -334,10 +382,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/17-matrix-terminal.jpg",
         "bytes": 1531249
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-matrix/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-matrix/background.jpg",
+        "bytes": 372156
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-matrix",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-matrix"
     },
     {
       "id": "18-sakura-night",
@@ -374,10 +426,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/19-steampunk.jpg",
         "bytes": 3038539
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-steampunk/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-steampunk/background.jpg",
+        "bytes": 895648
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-steampunk",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-steampunk"
     },
     {
       "id": "20-desert-sunset",
@@ -390,10 +446,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/20-desert-sunset.jpg",
         "bytes": 2052359
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-desert/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-desert/background.jpg",
+        "bytes": 484225
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-desert",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-desert"
     },
     {
       "id": "21-snow-cabin",
@@ -430,10 +490,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/22-space-nasa.jpg",
         "bytes": 1997753
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-space/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-space/background.jpg",
+        "bytes": 499043
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-space",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-space"
     },
     {
       "id": "23-saas-teal",
@@ -446,10 +510,14 @@
         "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/23-saas-teal.jpg",
         "bytes": 1614875
       },
-      "wallpaper": null,
+      "wallpaper": {
+        "path": "presets/preset-trial-saas-teal/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-saas-teal/background.jpg",
+        "bytes": 364691
+      },
       "livePreview": null,
-      "presetId": null,
-      "downloadBase": null
+      "presetId": "preset-trial-saas-teal",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-saas-teal"
     }
   ],
   "installables": [
@@ -628,6 +696,76 @@
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-caishen"
     },
     {
+      "id": "preset-trial-coffee",
+      "wallpaper": {
+        "path": "presets/preset-trial-coffee/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-coffee/background.jpg",
+        "bytes": 385504
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-coffee"
+    },
+    {
+      "id": "preset-trial-desert",
+      "wallpaper": {
+        "path": "presets/preset-trial-desert/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-desert/background.jpg",
+        "bytes": 484225
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-desert"
+    },
+    {
+      "id": "preset-trial-hanfu",
+      "wallpaper": {
+        "path": "presets/preset-trial-hanfu/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-hanfu/background.jpg",
+        "bytes": 403190
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-hanfu"
+    },
+    {
+      "id": "preset-trial-koi",
+      "wallpaper": {
+        "path": "presets/preset-trial-koi/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-koi/background.jpg",
+        "bytes": 664684
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-koi"
+    },
+    {
+      "id": "preset-trial-kpop",
+      "wallpaper": {
+        "path": "presets/preset-trial-kpop/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop/background.jpg",
+        "bytes": 518520
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop"
+    },
+    {
+      "id": "preset-trial-kpop-boy",
+      "wallpaper": {
+        "path": "presets/preset-trial-kpop-boy/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop-boy/background.jpg",
+        "bytes": 428031
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-kpop-boy"
+    },
+    {
+      "id": "preset-trial-matrix",
+      "wallpaper": {
+        "path": "presets/preset-trial-matrix/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-matrix/background.jpg",
+        "bytes": 372156
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-matrix"
+    },
+    {
       "id": "preset-trial-neon-rain",
       "wallpaper": {
         "path": "presets/preset-trial-neon-rain/background.jpg",
@@ -642,6 +780,46 @@
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-neon-rain"
     },
     {
+      "id": "preset-trial-nordic",
+      "wallpaper": {
+        "path": "presets/preset-trial-nordic/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-nordic/background.jpg",
+        "bytes": 301535
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-nordic"
+    },
+    {
+      "id": "preset-trial-ocean",
+      "wallpaper": {
+        "path": "presets/preset-trial-ocean/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-ocean/background.jpg",
+        "bytes": 338203
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-ocean"
+    },
+    {
+      "id": "preset-trial-overtime",
+      "wallpaper": {
+        "path": "presets/preset-trial-overtime/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-overtime/background.jpg",
+        "bytes": 509372
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-overtime"
+    },
+    {
+      "id": "preset-trial-rooftop",
+      "wallpaper": {
+        "path": "presets/preset-trial-rooftop/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rooftop/background.jpg",
+        "bytes": 513921
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rooftop"
+    },
+    {
       "id": "preset-trial-rose-soft",
       "wallpaper": {
         "path": "presets/preset-trial-rose-soft/background.jpg",
@@ -654,6 +832,66 @@
         "bytes": 186564
       },
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-rose-soft"
+    },
+    {
+      "id": "preset-trial-saas-teal",
+      "wallpaper": {
+        "path": "presets/preset-trial-saas-teal/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-saas-teal/background.jpg",
+        "bytes": 364691
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-saas-teal"
+    },
+    {
+      "id": "preset-trial-space",
+      "wallpaper": {
+        "path": "presets/preset-trial-space/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-space/background.jpg",
+        "bytes": 499043
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-space"
+    },
+    {
+      "id": "preset-trial-steampunk",
+      "wallpaper": {
+        "path": "presets/preset-trial-steampunk/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-steampunk/background.jpg",
+        "bytes": 895648
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-steampunk"
+    },
+    {
+      "id": "preset-trial-synthwave",
+      "wallpaper": {
+        "path": "presets/preset-trial-synthwave/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-synthwave/background.jpg",
+        "bytes": 595536
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-synthwave"
+    },
+    {
+      "id": "preset-trial-vtuber",
+      "wallpaper": {
+        "path": "presets/preset-trial-vtuber/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-vtuber/background.jpg",
+        "bytes": 655712
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-vtuber"
+    },
+    {
+      "id": "preset-trial-xianxia",
+      "wallpaper": {
+        "path": "presets/preset-trial-xianxia/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-xianxia/background.jpg",
+        "bytes": 538419
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-xianxia"
     },
     {
       "id": "preset-trial-yuexin-miao",

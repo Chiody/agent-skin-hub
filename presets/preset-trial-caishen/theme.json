@@ -11,21 +11,21 @@
   "image": "background.jpg",
   "appearance": "light",
   "art": {
-    "focusX": 0.74,
-    "focusY": 0.42,
+    "focusX": 0.72,
+    "focusY": 0.48,
     "safeArea": "left",
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#F7EFE4",
-    "panel": "#FFF8F0",
-    "panelAlt": "#F3E0D0",
+    "background": "#FFF8F0",
+    "panel": "#FFFCF7",
+    "panelAlt": "#F5E6D6",
     "accent": "#B91C1C",
     "accentAlt": "#D97706",
     "secondary": "#166534",
     "highlight": "#9A3412",
     "text": "#1C1210",
     "muted": "#5B463A",
-    "line": "rgba(185,28,28,.30)"
+    "line": "rgba(185,28,28,.28)"
   }
 }

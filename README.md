@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/previews/preset-strawberry-starlight.jpg" width="920" alt="星莓绮梦 · 真实 Codex 桌面截图" />
+  <img src="docs/previews/preset-strawberry-starlight.jpg" width="920" alt="星莓绮梦 · Codex 首页实机" />
 </p>
 
 <h1 align="center">agent-skin-hub</h1>
 
 <p align="center">
   <strong>给 Codex 桌面端换一张会呼吸的脸。</strong><br/>
-  一键皮肤 · 真机效果 · 按需下载 · 不把安装包撑爆
+  截的是首页 · 壁纸铺满 · 控件还能点 · 不是对话页糊一层灰
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="#-先看真机效果"><b>真机截图</b></a> ·
+  <a href="#-首页实机效果"><b>真机截图</b></a> ·
   <a href="#-30-秒用上"><b>怎么用</b></a> ·
   <a href="#-皮肤库"><b>皮肤库</b></a> ·
   <a href="#-投稿你的皮肤"><b>投稿</b></a>
@@ -24,54 +24,45 @@
 
 ---
 
-写代码已经够累了。  
-**工作台，至少可以好看一点。**
+写代码已经够累了。**工作台，至少可以好看一点。**
 
-`agent-skin-hub` 是 Codex Desktop 的开源皮肤合集：赛博霓虹、星河粉梦、雪峰清晨、深空矩阵……  
-点一下，整窗氛围就换掉——侧栏、输入框还是原生可点，不是整张假截图糊上去。
+`agent-skin-hub` 是 Codex Desktop 的开源皮肤合集。  
+和 [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 一样：**截首页**——大标题、建议卡、输入框都在，背景整窗铺满，不是聊天线程里那层发灰的任务页。
 
 > 非 OpenAI 官方。不改 `.app` / `app.asar`。  
-> 皮肤托管在 GitHub，客户端按需下载，**你的 App 不会因为皮肤变胖。**
+> 皮肤在 GitHub，ProvDex / 官网按需下载，**安装包不会被皮肤撑爆。**
 
 ---
 
-## ✨ 先看真机效果
+## ✨ 首页实机效果
 
-下面全部是 **真实 Codex Desktop 窗口截图**（Dream Skin 注入后实拍）。  
-侧栏项目名故意排成 ProvDex 一句话广告——从上往下读就行。
+下面全部是 **Codex 首页**实拍（Dream Skin 注入后）。侧栏项目名排成 ProvDex 一句话广告。
 
 <p align="center">
-  <img src="docs/previews/preset-azure-matrix.jpg" width="900" alt="苍蓝矩阵" /><br/>
-  <sub>苍蓝矩阵 · 深空门户，写下一行代码也像在开飞船</sub>
+  <img src="docs/previews/preset-azure-matrix.jpg" width="900" alt="苍蓝矩阵 · 首页" /><br/>
+  <sub>苍蓝矩阵 · 首页 · BUILD BEYOND THE HORIZON</sub>
 </p>
 
 <p align="center">
-  <img src="docs/previews/preset-snow-scape.jpg" width="900" alt="雪景" /><br/>
-  <sub>雪景 · 冰蓝雪线，冷静、干净、专注</sub>
-</p>
-
-<p align="center">
-  <img src="docs/previews/preset-cyber-neon.jpg" width="440" alt="赛博霓虹" />
-  &nbsp;
-  <img src="docs/previews/preset-midnight-aurora.jpg" width="440" alt="午夜极光" /><br/>
-  <sub>赛博霓虹 · 午夜极光</sub>
+  <img src="docs/previews/preset-snow-scape.jpg" width="900" alt="雪景 · 首页" /><br/>
+  <sub>雪景 · 首页 · CODE IN THE QUIET</sub>
 </p>
 
 <p align="center">
   <img src="docs/previews/preset-ember-bloom.jpg" width="440" alt="Ember Bloom" />
   &nbsp;
-  <img src="docs/previews/preset-sakura-dawn.jpg" width="440" alt="樱粉晨曦" /><br/>
-  <sub>Ember Bloom · 樱粉晨曦</sub>
+  <img src="docs/previews/preset-cyber-neon.jpg" width="440" alt="赛博霓虹" /><br/>
+  <sub>Ember Bloom · 赛博霓虹</sub>
 </p>
 
 <p align="center">
-  <img src="docs/previews/preset-aurora-veil.jpg" width="440" alt="Aurora Veil" />
+  <img src="docs/previews/preset-midnight-aurora.jpg" width="440" alt="午夜极光" />
   &nbsp;
-  <img src="docs/previews/preset-forest-mist.jpg" width="440" alt="森野薄雾" /><br/>
-  <sub>Aurora Veil · 森野薄雾</sub>
+  <img src="docs/previews/preset-strawberry-starlight.jpg" width="440" alt="星莓绮梦" /><br/>
+  <sub>午夜极光 · 星莓绮梦</sub>
 </p>
 
-喜欢就 **Star** 一下——合集越大，皮肤越多。
+喜欢就 **Star**——合集越大，皮肤越多。
 
 ---
 
@@ -80,17 +71,14 @@
 ### 方式 A · ProvDex（推荐）
 
 1. 打开 [ProvDex](https://provdex.com) → Codex → **外观**
-2. 从 Skin Hub 选一套（会自动拉远程皮肤）
+2. 从 Skin Hub 选一套（自动拉远程）
 3. 点 **应用并打开 Codex**
 
-官网合集页：[`provdex.com` Skin Hub](https://provdex.com/skinhub.html)（读本仓 `catalog.json`）
+合集页：[Skin Hub](https://provdex.com/skinhub.html)
 
 ### 方式 B · Codex Dream Skin
 
-已装 [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 时，把任意 `presets/preset-*` 拷进本机主题库即可切换：
-
 ```bash
-# 例：装「星莓绮梦」
 git clone --depth 1 https://github.com/Chiody/agent-skin-hub.git
 cp -R agent-skin-hub/presets/preset-strawberry-starlight \
   "$HOME/Library/Application Support/CodexDreamSkinStudio/themes/"
@@ -99,46 +87,33 @@ cp -R agent-skin-hub/presets/preset-strawberry-starlight \
   --id preset-strawberry-starlight
 ```
 
+切完请回到 **首页 / 新对话** 看氛围（任务页会自动压暗背景，这是引擎设计，不是皮肤坏了）。
+
 ---
 
 ## 🎨 皮肤库
 
-| 皮肤 | 气质 | 预览 |
-|------|------|------|
-| 星莓绮梦 | 粉色星河，浪漫不降智 | [截图](docs/previews/preset-strawberry-starlight.jpg) |
-| 苍蓝矩阵 | 深空门户，科幻任务台 | [截图](docs/previews/preset-azure-matrix.jpg) |
-| 雪景 | 雪山冷光，专注模式 | [截图](docs/previews/preset-snow-scape.jpg) |
-| 赛博霓虹 | 品红 × 电青 | [截图](docs/previews/preset-cyber-neon.jpg) |
-| 午夜极光 | 深蓝极光带 | [截图](docs/previews/preset-midnight-aurora.jpg) |
-| Aurora Veil | 极光薄纱 | [截图](docs/previews/preset-aurora-veil.jpg) |
+| 皮肤 | 气质 | 首页实机 |
+|------|------|----------|
+| 星莓绮梦 | 粉色星河 | [截图](docs/previews/preset-strawberry-starlight.jpg) |
+| 苍蓝矩阵 | 深空门户 | [截图](docs/previews/preset-azure-matrix.jpg) |
+| 雪景 | 冰蓝雪线 | [截图](docs/previews/preset-snow-scape.jpg) |
 | Ember Bloom | 暖光花瓣 | [截图](docs/previews/preset-ember-bloom.jpg) |
-| 樱粉晨曦 | 柔粉清晨 | [截图](docs/previews/preset-sakura-dawn.jpg) |
-| 森野薄雾 | 墨绿晨雾 | [截图](docs/previews/preset-forest-mist.jpg) |
-| Open Portal | 抽象门户 | [截图](docs/previews/preset-open-portal.jpg) |
-| Deep Space Mission Control | NASA 地球气辉 | — |
-| 琥珀黄昏 | 暖琥珀暮色 | — |
+| 赛博霓虹 | 品红 × 电青 | [截图](docs/previews/preset-cyber-neon.jpg) |
+| 午夜极光 | 深蓝极光 | [截图](docs/previews/preset-midnight-aurora.jpg) |
+| 樱粉晨曦 / 森野薄雾 / 琥珀黄昏 / … | 更多抽象预设 | 见 `presets/` |
 
-完整机器可读目录：[`catalog.json`](./catalog.json)  
-单套直链：
-
-```text
-https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/<id>/theme.json
-https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/<id>/background.jpg
-```
+机器可读目录：[`catalog.json`](./catalog.json)
 
 ---
 
 ## 💌 投稿你的皮肤
 
-欢迎 PR。合集靠大家一起变好看。
-
-**能过审的包长这样：**
-
 ```text
 presets/preset-your-slug/
-  theme.json       # schemaVersion: 1，id 与目录名一致
-  background.jpg   # 无侧栏/无输入框的纯背景（建议 16:9）
-  SOURCE.md        # 来源、许可、作者
+  theme.json       # schemaVersion: 1
+  background.jpg   # 无 UI 纯背景，主视觉偏右，左侧留白
+  SOURCE.md
 ```
 
 ```bash
@@ -146,26 +121,19 @@ node scripts/validate-preset.mjs presets/preset-your-slug
 node scripts/build-catalog.mjs
 ```
 
-**请别投这些：** 游戏 IP / 未授权角色立绘 / 真人肖像 / 带 Codex UI 的假截图当背景 / 可执行脚本塞进皮肤包。
+**别投：** 游戏 IP / 真人肖像 / 带侧栏输入框的假截图当背景 / 可执行脚本。
+
+截图请像 Dream Skin 一样拍 **首页**，不要拍聊天线程。
 
 ---
 
-## 🛡️ 安全边界
+## 🛡️ 安全
 
-- 只分发 **主题素材**（图 + `theme.json`），不含注入器病毒包
-- 运行时换肤走本机 CDP 回环（Dream Skin / ProvDex），**不改官方安装包签名**
-- 换肤与 API / 中转配置无关，不会偷偷改你的 Key
+- 只分发主题素材（图 + `theme.json`）
+- 换肤走本机 CDP，不改官方安装包
+- 与 API / 中转无关，不碰你的 Key
 
 ---
-
-## ⭐ 如果这让你的 Codex 好看了一点
-
-点一下右上角 **Star**，让更多人发现这片皮肤宇宙。  
-也欢迎把你的实机截图发到 Issue —— 好看的我们会挂到 README。
-
-<p align="center">
-  <img src="docs/previews/preset-azure-matrix.jpg" width="720" alt="苍蓝矩阵收尾图" />
-</p>
 
 <p align="center">
   <sub>Make something wonderful — and make it look wonderful too.</sub>
@@ -173,4 +141,4 @@ node scripts/build-catalog.mjs
 
 ## License
 
-MIT。各皮肤素材以 `presets/*/SOURCE.md` 为准。
+MIT。素材以 `presets/*/SOURCE.md` 为准。

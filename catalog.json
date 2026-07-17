@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Open catalog of Codex Desktop Dream Skin compatible presets. ProvDex / website fetch this file; skins download on demand.",
-  "updatedAt": "2026-07-17T02:58:22.093Z",
+  "updatedAt": "2026-07-17T03:45:07.579Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "codex-dream-skin",
@@ -20,8 +20,7 @@
       "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "risk": "low",
       "tags": [
-        "abstract",
-        "procedural"
+        "abstract"
       ]
     },
     {
@@ -49,8 +48,7 @@
       "sourceUrl": "https://github.com/slovx2/Codex-NN",
       "risk": "low",
       "tags": [
-        "abstract",
-        "fantasy"
+        "abstract"
       ]
     },
     {
@@ -64,8 +62,7 @@
       "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "risk": "low",
       "tags": [
-        "abstract",
-        "procedural"
+        "abstract"
       ]
     },
     {
@@ -79,8 +76,7 @@
       "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
       "risk": "low",
       "tags": [
-        "space",
-        "public-domain"
+        "abstract"
       ]
     },
     {
@@ -108,8 +104,7 @@
       "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "risk": "low",
       "tags": [
-        "abstract",
-        "procedural"
+        "abstract"
       ]
     },
     {
@@ -123,8 +118,7 @@
       "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "risk": "low",
       "tags": [
-        "abstract",
-        "procedural"
+        "abstract"
       ]
     },
     {
@@ -152,8 +146,7 @@
       "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "risk": "low",
       "tags": [
-        "abstract",
-        "procedural"
+        "abstract"
       ]
     },
     {
@@ -167,8 +160,7 @@
       "sourceUrl": "https://github.com/chaoran162/Codex-Snow-Skin",
       "risk": "low",
       "tags": [
-        "landscape",
-        "nature"
+        "abstract"
       ]
     },
     {
@@ -182,8 +174,7 @@
       "sourceUrl": "https://github.com/slovx2/Codex-NN",
       "risk": "low",
       "tags": [
-        "abstract",
-        "fantasy"
+        "abstract"
       ]
     }
   ]

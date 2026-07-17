@@ -17,15 +17,15 @@
     "taskMode": "ambient"
   },
   "colors": {
-    "background": "#FFF8F0",
-    "panel": "#FFFBF5",
-    "panelAlt": "#FFE8D6",
-    "accent": "#C23B2E",
-    "accentAlt": "#E8A317",
-    "secondary": "#5A8F6B",
-    "highlight": "#B8860B",
-    "text": "#3A2418",
-    "muted": "#8A6A55",
-    "line": "rgba(194,59,46,.22)"
+    "background": "#F7EFE4",
+    "panel": "#FFF8F0",
+    "panelAlt": "#F3E0D0",
+    "accent": "#B91C1C",
+    "accentAlt": "#D97706",
+    "secondary": "#166534",
+    "highlight": "#9A3412",
+    "text": "#1C1210",
+    "muted": "#5B463A",
+    "line": "rgba(185,28,28,.30)"
   }
 }

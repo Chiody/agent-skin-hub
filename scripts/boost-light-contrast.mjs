@@ -16,34 +16,46 @@ await send("Runtime.evaluate", { expression: `(() => {
   s.id = ID;
   s.textContent = \`
     html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button {
-      background: rgba(255,248,240,0.94) !important;
+      background: rgba(255, 252, 248, 0.96) !important;
       color: #1C1210 !important;
-      border-color: rgba(185,28,28,0.28) !important;
+      border: 1px solid rgba(185,28,28,0.35) !important;
+      text-shadow: none !important;
     }
+    html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button,
     html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button * {
-      color: inherit !important;
-      opacity: 1 !important;
-    }
-    html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button > span:last-child,
-    html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button span {
       color: #1C1210 !important;
       opacity: 1 !important;
+      -webkit-text-fill-color: #1C1210 !important;
+    }
+    html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button > span:first-child > span:first-child {
+      background: rgba(185,28,28,0.12) !important;
+      border-color: rgba(185,28,28,0.35) !important;
+      color: #B91C1C !important;
+    }
+    html.codex-dream-skin[data-dream-shell="light"] .group\\\\/home-suggestions button svg {
+      color: #B91C1C !important;
     }
     html.codex-dream-skin[data-dream-shell="light"] [data-feature="game-source"] {
       color: #1C1210 !important;
+      -webkit-text-fill-color: #1C1210 !important;
     }
     html.codex-dream-skin[data-dream-shell="light"] [data-feature="game-source"]::after {
-      color: rgba(28,18,16,0.82) !important;
+      color: rgba(28,18,16,0.85) !important;
+    }
+    html.codex-dream-skin[data-dream-shell="light"] aside.app-shell-left-panel {
+      background: rgba(255,248,240,0.88) !important;
     }
     html.codex-dream-skin[data-dream-shell="light"] aside.app-shell-left-panel,
     html.codex-dream-skin[data-dream-shell="light"] aside.app-shell-left-panel button,
     html.codex-dream-skin[data-dream-shell="light"] aside.app-shell-left-panel a,
     html.codex-dream-skin[data-dream-shell="light"] aside.app-shell-left-panel span {
       color: #1C1210 !important;
+      -webkit-text-fill-color: #1C1210 !important;
+      opacity: 1 !important;
     }
   \`;
   document.documentElement.appendChild(s);
   return true;
 })()` });
-console.log("contrast ok");
+console.log('contrast');
 ws.close();

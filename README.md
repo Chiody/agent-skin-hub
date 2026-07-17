@@ -37,7 +37,8 @@
 
 ## ✨ 先看真机效果
 
-下面全部是 **真实 Codex Desktop 窗口截图**（Dream Skin 注入后实拍，侧栏个人信息已遮罩）。
+下面全部是 **真实 Codex Desktop 窗口截图**（Dream Skin 注入后实拍）。  
+侧栏项目名故意排成 ProvDex 一句话广告——从上往下读就行。
 
 <p align="center">
   <img src="docs/previews/preset-azure-matrix.jpg" width="900" alt="苍蓝矩阵" /><br/>

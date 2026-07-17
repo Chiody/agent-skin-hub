@@ -13,7 +13,7 @@
   <a href="https://github.com/Chiody/agent-skin-hub/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/Chiody/agent-skin-hub?style=flat-square&color=ff4d8d" /></a>
   <a href="./LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" /></a>
   <a href="https://provdex.com/skinhub.html"><img alt="skinhub" src="https://img.shields.io/badge/ProvDex-Skin%20Hub-34d399?style=flat-square" /></a>
-  <a href="./gallery.json"><img alt="gallery" src="https://img.shields.io/badge/gallery.json-11%20ads-informational?style=flat-square" /></a>
+  <a href="./gallery.json"><img alt="gallery" src="https://img.shields.io/badge/gallery.json-23%20ads-informational?style=flat-square" /></a>
 </p>
 
 <p align="center">
@@ -68,7 +68,42 @@
   </tr>
 </table>
 
-说明与旧图归档 → [`docs/ads/README.md`](./docs/ads/README.md)
+说明 → [`docs/ads/README.md`](./docs/ads/README.md)
+
+---
+
+## 概念画廊 · 海外 / 其他（保留）
+
+原先国外向那批全部保留，编号接在后面：
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/ads/12-synthwave.jpg" alt="Synthwave" /><br/><sub>12 · Synthwave 80s</sub></td>
+    <td width="50%"><img src="docs/ads/13-nordic-minimal.jpg" alt="北欧" /><br/><sub>13 · 北欧极简</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/ads/14-cyber-rain.jpg" alt="赛博雨" /><br/><sub>14 · 赛博雨夜</sub></td>
+    <td><img src="docs/ads/15-ocean-coast.jpg" alt="海边" /><br/><sub>15 · 海边编程</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/ads/16-coffee-cozy.jpg" alt="咖啡" /><br/><sub>16 · 咖啡窝</sub></td>
+    <td><img src="docs/ads/17-matrix-terminal.jpg" alt="终端" /><br/><sub>17 · 黑客终端</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/ads/18-sakura-night.jpg" alt="樱花夜" /><br/><sub>18 · 樱花夜</sub></td>
+    <td><img src="docs/ads/19-steampunk.jpg" alt="蒸汽朋克" /><br/><sub>19 · 蒸汽朋克</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/ads/20-desert-sunset.jpg" alt="沙漠" /><br/><sub>20 · 沙漠落日</sub></td>
+    <td><img src="docs/ads/21-snow-cabin.jpg" alt="雪屋" /><br/><sub>21 · 雪屋静写</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/ads/22-space-nasa.jpg" alt="太空站" /><br/><sub>22 · 太空站</sub></td>
+    <td><img src="docs/ads/23-saas-teal.jpg" alt="SaaS" /><br/><sub>23 · Teal SaaS</sub></td>
+  </tr>
+</table>
+
+> 只替换了对标 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 画廊那几张；海外向原图未删。对照仓旧克隆仍在 [`docs/ads/archive-old-20/`](./docs/ads/archive-old-20/)。
 
 ---
 

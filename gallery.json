@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T09:38:01.195Z",
+  "updatedAt": "2026-07-17T09:53:24.066Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "rawBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main",
   "catalogUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/catalog.json",
@@ -205,6 +205,222 @@
         "path": "docs/ads/11-koi-glass.jpg",
         "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/11-koi-glass.jpg",
         "bytes": 1282337
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "12-synthwave",
+      "name": "Synthwave 80s",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/12-synthwave.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/12-synthwave.jpg",
+        "bytes": 2138592
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "13-nordic-minimal",
+      "name": "北欧极简",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/13-nordic-minimal.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/13-nordic-minimal.jpg",
+        "bytes": 1458695
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "14-cyber-rain",
+      "name": "赛博雨夜",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/14-cyber-rain.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/14-cyber-rain.jpg",
+        "bytes": 1935045
+      },
+      "wallpaper": {
+        "path": "presets/preset-trial-neon-rain/background.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain/background.jpg",
+        "bytes": 1189571
+      },
+      "livePreview": {
+        "path": "docs/previews/preset-trial-neon-rain.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-neon-rain.jpg",
+        "bytes": 192500
+      },
+      "presetId": "preset-trial-neon-rain",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-neon-rain"
+    },
+    {
+      "id": "15-ocean-coast",
+      "name": "海边编程",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/15-ocean-coast.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/15-ocean-coast.jpg",
+        "bytes": 1673724
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "16-coffee-cozy",
+      "name": "咖啡窝",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/16-coffee-cozy.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/16-coffee-cozy.jpg",
+        "bytes": 1745834
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "17-matrix-terminal",
+      "name": "黑客终端",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/17-matrix-terminal.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/17-matrix-terminal.jpg",
+        "bytes": 1531249
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "18-sakura-night",
+      "name": "樱花夜",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/18-sakura-night.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/18-sakura-night.jpg",
+        "bytes": 2070098
+      },
+      "wallpaper": {
+        "path": "presets/preset-sakura-dawn/background.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn/background.jpg",
+        "bytes": 504541
+      },
+      "livePreview": {
+        "path": "docs/previews/preset-sakura-dawn.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-sakura-dawn.jpg",
+        "bytes": 59871
+      },
+      "presetId": "preset-sakura-dawn",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn"
+    },
+    {
+      "id": "19-steampunk",
+      "name": "蒸汽朋克",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/19-steampunk.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/19-steampunk.jpg",
+        "bytes": 3038539
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "20-desert-sunset",
+      "name": "沙漠落日",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/20-desert-sunset.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/20-desert-sunset.jpg",
+        "bytes": 2052359
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "21-snow-cabin",
+      "name": "雪屋静写",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/21-snow-cabin.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/21-snow-cabin.jpg",
+        "bytes": 2292812
+      },
+      "wallpaper": {
+        "path": "presets/preset-snow-scape/background.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape/background.jpg",
+        "bytes": 657849
+      },
+      "livePreview": {
+        "path": "docs/previews/preset-snow-scape.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-snow-scape.jpg",
+        "bytes": 114814
+      },
+      "presetId": "preset-snow-scape",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape"
+    },
+    {
+      "id": "22-space-nasa",
+      "name": "太空站",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/22-space-nasa.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/22-space-nasa.jpg",
+        "bytes": 1997753
+      },
+      "wallpaper": null,
+      "livePreview": null,
+      "presetId": null,
+      "downloadBase": null
+    },
+    {
+      "id": "23-saas-teal",
+      "name": "Teal SaaS",
+      "group": "intl",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/23-saas-teal.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/23-saas-teal.jpg",
+        "bytes": 1614875
       },
       "wallpaper": null,
       "livePreview": null,

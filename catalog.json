@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "name": "agent-skin-hub",
-  "description": "Open catalog of Codex Desktop Dream Skin compatible presets. ProvDex / website fetch this file; skins download on demand.",
-  "updatedAt": "2026-07-17T03:45:07.579Z",
+  "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
+  "updatedAt": "2026-07-17T03:56:35.902Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
-    "codex-dream-skin",
-    "provdex-codex-appearance"
+    "provdex-codex-appearance",
+    "codex-desktop"
   ],
   "presets": [
     {

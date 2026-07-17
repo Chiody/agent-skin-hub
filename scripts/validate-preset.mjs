@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Validate one preset directory for agent-skin-hub / Dream Skin compatibility.
+ * Validate one preset directory for agent-skin-hub.
  * Usage: node scripts/validate-preset.mjs <preset-dir>
  */
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
@@ -43,7 +43,7 @@ else {
       }
     }
     if (!theme.colors || typeof theme.colors !== "object") {
-      warnings.push("missing colors object (Dream Skin tolerates omit, hub prefers full palette)");
+      warnings.push("missing colors object (hub prefers full palette)");
     }
   }
 }

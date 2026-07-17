@@ -1,4 +1,3 @@
-# Live Codex previews
+# 预览图
 
-Real Codex Desktop screenshots with Dream Skin applied.  
-Sidebar personal data is blurred before publishing.
+Codex 桌面端首页实拍。侧栏展示文案已替换，不含真实个人项目名。

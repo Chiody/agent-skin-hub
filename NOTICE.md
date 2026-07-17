@@ -1,12 +1,8 @@
 # NOTICE
 
-This repository redistributes community and original Codex Desktop skin packs
-compatible with the Dream Skin `theme.json` + pure-background format.
+本仓库收录 Codex 桌面端用的社区皮肤素材（背景图 + 主题配置）。
 
-- Not affiliated with OpenAI or ProvDex product source code.
-- Each preset must declare source URL and license/rights notes in its
-  `SOURCE.md` and in root `catalog.json`.
-- Do not include malware, executables that patch `app.asar`, or UI screenshots
-  as backgrounds.
-- Character likeness, game IP, and celebrity imagery require explicit rights;
-  default catalog prefers abstract / original / clearly licensed packs.
+- 与 OpenAI 无关，也不包含 ProvDex 产品源码
+- 每套皮肤须在 `SOURCE.md` 写明来源与授权
+- 禁止：可执行补丁、改安装包的脚本、把整页 UI 截图当背景
+- 角色肖像、游戏 IP、名人形象须有明确授权；默认只收抽象 / 原创 / 权属清楚的包

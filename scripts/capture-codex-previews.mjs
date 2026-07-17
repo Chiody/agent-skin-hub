@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
- * Capture Codex HOME-page previews for Skin Hub README.
- * Requires Dream Skin injector watching CDP :9341.
- * Does NOT use switch-theme-macos.sh (osascript notifications hang).
+ * Capture Codex home-page previews for Skin Hub README.
+ * Needs local skin injector on CDP :9341.
  */
 import { spawn } from "node:child_process";
 import { copyFileSync, readdirSync, rmSync, writeFileSync, mkdirSync, existsSync } from "node:fs";

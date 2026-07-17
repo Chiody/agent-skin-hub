@@ -43,11 +43,10 @@ for (const name of readdirSync(presetsDir).sort()) {
 const catalog = {
   schemaVersion: 1,
   name: "agent-skin-hub",
-  description:
-    "Open catalog of Codex Desktop Dream Skin compatible presets. ProvDex / website fetch this file; skins download on demand.",
+  description: "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
   updatedAt: now,
   homepage: "https://github.com/Chiody/agent-skin-hub",
-  compatibleWith: ["codex-dream-skin", "provdex-codex-appearance"],
+  compatibleWith: ["provdex-codex-appearance", "codex-desktop"],
   presets,
 };
 

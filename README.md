@@ -19,10 +19,39 @@
 <p align="center">
   <a href="https://provdex.com">ProvDex</a> ·
   <a href="https://provdex.com/skinhub.html">Skin Hub</a> ·
-  <a href="https://provdex.com/gallery.html">效果画廊</a> ·
+  <a href="./CODEX-PROMPT.md">发给 Codex</a> ·
   <a href="./catalog.json">catalog.json</a> ·
   <a href="./gallery.json">gallery.json</a>
 </p>
+
+---
+
+## 像 Fei-Away 那样丢给 Codex
+
+可以把本仓链接直接发给 **macOS Codex**，让它自己换肤（不必装 ProvDex）：
+
+1. 把链接发给 Codex：`https://github.com/Chiody/agent-skin-hub`
+2. 再贴上 [`CODEX-PROMPT.md`](./CODEX-PROMPT.md) 里的整段提示词（或下面最短版）
+3. Codex 会读 [`SKILL.md`](./SKILL.md) / [`AGENTS.md`](./AGENTS.md)，执行 `apply-hub-skin.sh`
+
+最短指令：
+
+```text
+用 https://github.com/Chiody/agent-skin-hub 在这台 Mac 给 Codex 换肤。
+读 SKILL.md，执行：
+curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-trial-yuexin-miao
+只改外观，别动官方 .app 和 API 配置。验收侧栏/建议卡/输入框是否清晰。
+```
+
+一键命令（终端也可直接跑）：
+
+```bash
+# 列出皮肤
+curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- --list
+
+# 安装并应用（示例：月薪喵）
+curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-trial-yuexin-miao
+```
 
 ---
 
@@ -120,13 +149,13 @@
 
 ## 怎么用
 
-1. 打开 [ProvDex](https://provdex.com) → Codex → **外观**  
-2. 或逛 [Skin Hub](https://provdex.com/skinhub.html)  
-3. 挑一套点应用（按需从本仓下载，不塞进安装包）
+1. **发给 Codex**（推荐）：仓库链接 + [`CODEX-PROMPT.md`](./CODEX-PROMPT.md)  
+2. 打开 [ProvDex](https://provdex.com) → Codex → **外观**  
+3. 或逛 [Skin Hub](https://provdex.com/skinhub.html) 复制安装命令  
 
 ```bash
-curl -sL https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/catalog.json | head
-curl -sL https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/gallery.json | head
+curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/catalog.json | head
+curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- --list
 ```
 
 ---

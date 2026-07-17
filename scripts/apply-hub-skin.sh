@@ -1,8 +1,9 @@
 #!/bin/bash
 # Apply one agent-skin-hub preset on macOS without ProvDex.
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/scripts/apply-hub-skin.sh | bash -s -- preset-trial-rose-soft
+#   curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-trial-yuexin-miao
 #   bash apply-hub-skin.sh preset-trial-caishen
+#   bash apply-hub-skin.sh --list
 set -euo pipefail
 
 PRESET_ID="${1:-}"
@@ -13,7 +14,23 @@ THEMES="${HOME}/Library/Application Support/CodexDreamSkinStudio/themes"
 
 fail() { printf 'error: %s\n' "$*" >&2; exit 1; }
 
-[ -n "$PRESET_ID" ] || fail "usage: apply-hub-skin.sh <preset-id>"
+list_presets() {
+  curl -fsSL "$HUB_RAW/catalog.json" | python3 -c '
+import json, sys
+c = json.load(sys.stdin)
+for p in c.get("presets", []):
+    pid = str(p.get("id", ""))
+    name = str(p.get("name", ""))
+    print(f"{pid:40}  {name}")
+'
+}
+
+if [ "$PRESET_ID" = "--list" ] || [ "$PRESET_ID" = "-l" ]; then
+  list_presets
+  exit 0
+fi
+
+[ -n "$PRESET_ID" ] || fail "usage: apply-hub-skin.sh <preset-id> | --list"
 [[ "$PRESET_ID" =~ ^preset-[A-Za-z0-9_-]+$ ]] || fail "invalid preset id: $PRESET_ID"
 [ "$(uname -s)" = "Darwin" ] || fail "macOS only for now"
 

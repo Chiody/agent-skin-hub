@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T03:56:53.268Z",
+  "updatedAt": "2026-07-17T03:57:13.631Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -17,7 +17,7 @@
       "bytes": 119760,
       "path": "presets/preset-amber-dusk",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk",
-      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "sourceUrl": "https://github.com/Fei-Away",
       "risk": "low",
       "tags": [
         "abstract"
@@ -59,7 +59,7 @@
       "bytes": 129934,
       "path": "presets/preset-cyber-neon",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon",
-      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "sourceUrl": "https://github.com/Fei-Away",
       "risk": "low",
       "tags": [
         "abstract"
@@ -101,7 +101,7 @@
       "bytes": 117979,
       "path": "presets/preset-forest-mist",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist",
-      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "sourceUrl": "https://github.com/Fei-Away",
       "risk": "low",
       "tags": [
         "abstract"
@@ -115,7 +115,7 @@
       "bytes": 121785,
       "path": "presets/preset-midnight-aurora",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora",
-      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "sourceUrl": "https://github.com/Fei-Away",
       "risk": "low",
       "tags": [
         "abstract"
@@ -143,7 +143,7 @@
       "bytes": 106054,
       "path": "presets/preset-sakura-dawn",
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn",
-      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "sourceUrl": "https://github.com/Fei-Away",
       "risk": "low",
       "tags": [
         "abstract"

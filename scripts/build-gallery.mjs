@@ -23,6 +23,7 @@ const CONCEPTS = [
   { id: "09-hanfu-glass", file: "09-hanfu-glass.jpg", name: "汉服园林", group: "cn-v2" },
   { id: "10-vtuber-glass", file: "10-vtuber-glass.jpg", name: "虚拟偶像", group: "cn-v2" },
   { id: "11-koi-glass", file: "11-koi-glass.jpg", name: "锦鲤好运", group: "cn-v2" },
+  { id: "24-yuexin-miao-glass", file: "24-yuexin-miao-glass.jpg", name: "月薪喵", group: "cn-v2", presetId: "preset-trial-yuexin-miao" },
   // International / other (kept from earlier batch; Fei-Away 对照 8 向已用 cn-v2 替换)
   { id: "12-synthwave", file: "12-synthwave.jpg", name: "Synthwave 80s", group: "intl" },
   { id: "13-nordic-minimal", file: "13-nordic-minimal.jpg", name: "北欧极简", group: "intl" },

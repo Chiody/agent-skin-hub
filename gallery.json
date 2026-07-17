@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T09:53:24.066Z",
+  "updatedAt": "2026-07-17T11:37:30.525Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "rawBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main",
   "catalogUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/catalog.json",
@@ -210,6 +210,30 @@
       "livePreview": null,
       "presetId": null,
       "downloadBase": null
+    },
+    {
+      "id": "24-yuexin-miao-glass",
+      "name": "月薪喵",
+      "group": "cn-v2",
+      "kind": "concept-ad",
+      "note": "整窗概念宣传图（玻璃侧栏 + Codex 壳），勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/24-yuexin-miao-glass.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/ads/24-yuexin-miao-glass.jpg",
+        "bytes": 255029
+      },
+      "wallpaper": {
+        "path": "presets/preset-trial-yuexin-miao/background.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao/background.jpg",
+        "bytes": 756364
+      },
+      "livePreview": {
+        "path": "docs/previews/preset-trial-yuexin-miao.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-yuexin-miao.jpg",
+        "bytes": 61250
+      },
+      "presetId": "preset-trial-yuexin-miao",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao"
     },
     {
       "id": "12-synthwave",
@@ -630,6 +654,20 @@
         "bytes": 186564
       },
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft"
+    },
+    {
+      "id": "preset-trial-yuexin-miao",
+      "wallpaper": {
+        "path": "presets/preset-trial-yuexin-miao/background.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao/background.jpg",
+        "bytes": 756364
+      },
+      "livePreview": {
+        "path": "docs/previews/preset-trial-yuexin-miao.jpg",
+        "url": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-yuexin-miao.jpg",
+        "bytes": 61250
+      },
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao"
     }
   ]
 }

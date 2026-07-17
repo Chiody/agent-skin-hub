@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T08:26:14.711Z",
+  "updatedAt": "2026-07-17T11:37:30.481Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -243,6 +243,22 @@
       "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft",
       "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-rose-soft/background.jpg",
       "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-rose-soft.jpg",
+      "sourceUrl": "",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-trial-yuexin-miao",
+      "name": "试装 · 月薪喵",
+      "tagline": "这个月工资，先换成一只软乎乎的陪伴。",
+      "image": "background.jpg",
+      "bytes": 756364,
+      "path": "presets/preset-trial-yuexin-miao",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao",
+      "wallpaperUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-trial-yuexin-miao/background.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/docs/previews/preset-trial-yuexin-miao.jpg",
       "sourceUrl": "",
       "risk": "low",
       "tags": [

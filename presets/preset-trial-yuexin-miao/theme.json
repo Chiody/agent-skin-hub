@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "preset-trial-yuexin-miao",
+  "name": "试装 · 月薪喵",
+  "brandSubtitle": " · AGENT SKIN HUB",
+  "tagline": "这个月工资，先换成一只软乎乎的陪伴。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉  选择项目",
+  "statusText": "AGENT SKIN HUB ONLINE",
+  "quote": "PAYDAY ENERGY",
+  "image": "background.jpg",
+  "appearance": "light",
+  "art": {
+    "focusX": 0.78,
+    "focusY": 0.48,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#FFF6F0",
+    "panel": "#FFFCF9",
+    "panelAlt": "#FFE8DC",
+    "accent": "#E07A5F",
+    "accentAlt": "#F2A7C3",
+    "secondary": "#7EB6D9",
+    "highlight": "#D45D6A",
+    "text": "#2A2220",
+    "muted": "#6B5750",
+    "line": "rgba(224,122,95,.26)"
+  }
+}

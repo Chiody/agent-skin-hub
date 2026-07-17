@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "name": "agent-skin-hub",
+  "description": "Open catalog of Codex Desktop Dream Skin compatible presets. ProvDex / website fetch this file; skins download on demand.",
+  "updatedAt": "2026-07-17T02:58:22.093Z",
+  "homepage": "https://github.com/Chiody/agent-skin-hub",
+  "compatibleWith": [
+    "codex-dream-skin",
+    "provdex-codex-appearance"
+  ],
+  "presets": [
+    {
+      "id": "preset-amber-dusk",
+      "name": "琥珀黄昏",
+      "tagline": "暖金色的黄昏光，适合长时间的深夜编码。",
+      "image": "background.jpg",
+      "bytes": 119760,
+      "path": "presets/preset-amber-dusk",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-amber-dusk",
+      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "procedural"
+      ]
+    },
+    {
+      "id": "preset-aurora-veil",
+      "name": "Aurora Veil",
+      "tagline": "在极光夜空下，把灵感写进每一行代码。",
+      "image": "background.png",
+      "bytes": 500349,
+      "path": "presets/preset-aurora-veil",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-aurora-veil",
+      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-azure-matrix",
+      "name": "苍蓝矩阵",
+      "tagline": "连接深空，点亮下一行代码。",
+      "image": "background.jpg",
+      "bytes": 256454,
+      "path": "presets/preset-azure-matrix",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-azure-matrix",
+      "sourceUrl": "https://github.com/slovx2/Codex-NN",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "fantasy"
+      ]
+    },
+    {
+      "id": "preset-cyber-neon",
+      "name": "赛博霓虹",
+      "tagline": "近黑底色上的品红与青，高对比的赛博感。",
+      "image": "background.jpg",
+      "bytes": 129934,
+      "path": "presets/preset-cyber-neon",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-cyber-neon",
+      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "procedural"
+      ]
+    },
+    {
+      "id": "preset-deep-space-mission-control",
+      "name": "Deep Space Mission Control",
+      "tagline": "Observe the signal, plan the orbit, ship the mission.",
+      "image": "background.jpg",
+      "bytes": 443750,
+      "path": "presets/preset-deep-space-mission-control",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-deep-space-mission-control",
+      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "risk": "low",
+      "tags": [
+        "space",
+        "public-domain"
+      ]
+    },
+    {
+      "id": "preset-ember-bloom",
+      "name": "Ember Bloom",
+      "tagline": "在暖光花瓣间，把热爱慢慢展开。",
+      "image": "background.png",
+      "bytes": 412007,
+      "path": "presets/preset-ember-bloom",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-ember-bloom",
+      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-forest-mist",
+      "name": "森野薄雾",
+      "tagline": "墨绿与晨雾，给屏幕一点自然的呼吸。",
+      "image": "background.jpg",
+      "bytes": 117979,
+      "path": "presets/preset-forest-mist",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-forest-mist",
+      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "procedural"
+      ]
+    },
+    {
+      "id": "preset-midnight-aurora",
+      "name": "午夜极光",
+      "tagline": "深蓝夜幕里流动的极光，安静又有张力。",
+      "image": "background.jpg",
+      "bytes": 121785,
+      "path": "presets/preset-midnight-aurora",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-midnight-aurora",
+      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "procedural"
+      ]
+    },
+    {
+      "id": "preset-open-portal",
+      "name": "Open Portal",
+      "tagline": "Turn ideas into working software.",
+      "image": "background.png",
+      "bytes": 99727,
+      "path": "presets/preset-open-portal",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-open-portal",
+      "sourceUrl": "https://github.com/ismoshushi/codex-skinkit",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-sakura-dawn",
+      "name": "樱粉晨曦",
+      "tagline": "把喜欢的粉色调进工作台，温柔但不刺眼。",
+      "image": "background.jpg",
+      "bytes": 106054,
+      "path": "presets/preset-sakura-dawn",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-sakura-dawn",
+      "sourceUrl": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "procedural"
+      ]
+    },
+    {
+      "id": "preset-snow-scape",
+      "name": "雪景",
+      "tagline": "冰蓝雪线，清晰专注的编码氛围。",
+      "image": "background.jpg",
+      "bytes": 461247,
+      "path": "presets/preset-snow-scape",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-snow-scape",
+      "sourceUrl": "https://github.com/chaoran162/Codex-Snow-Skin",
+      "risk": "low",
+      "tags": [
+        "landscape",
+        "nature"
+      ]
+    },
+    {
+      "id": "preset-strawberry-starlight",
+      "name": "星莓绮梦",
+      "tagline": "把灵感藏进粉色星河。",
+      "image": "background.jpg",
+      "bytes": 383274,
+      "path": "presets/preset-strawberry-starlight",
+      "downloadBase": "https://raw.githubusercontent.com/Chiody/agent-skin-hub/main/presets/preset-strawberry-starlight",
+      "sourceUrl": "https://github.com/slovx2/Codex-NN",
+      "risk": "low",
+      "tags": [
+        "abstract",
+        "fantasy"
+      ]
+    }
+  ]
+}

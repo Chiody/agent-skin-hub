@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "preset-snow-scape",
+  "name": "雪景",
+  "brandSubtitle": "AGENT SKIN HUB",
+  "tagline": "冰蓝雪线，清晰专注的编码氛围。",
+  "projectPrefix": "雪道项目 · ",
+  "projectLabel": "❄  选择项目",
+  "statusText": "SNOW LINE ONLINE",
+  "quote": "CODE IN THE QUIET",
+  "image": "background.jpg",
+  "colors": {
+    "background": "#E8F4FC",
+    "panel": "#F0F8FF",
+    "panelAlt": "#D6EBFA",
+    "accent": "#2E9AF0",
+    "accentAlt": "#45A8F4",
+    "secondary": "#84CDFF",
+    "highlight": "#B8E4FF",
+    "text": "#0F3D5C",
+    "muted": "#5A8FAD",
+    "line": "rgba(46, 154, 240, 0.28)"
+  }
+}

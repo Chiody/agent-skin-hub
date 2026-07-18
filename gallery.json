@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "name": "agent-skin-hub-gallery",
-  "updatedAt": "2026-07-17T13:35:38.998Z",
+  "updatedAt": "2026-07-18T02:02:01.741Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "rawBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main",
   "catalogUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/catalog.json",
@@ -423,6 +423,39 @@
       "presetId": "preset-trial-yuexin-miao",
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-trial-yuexin-miao",
       "installCmd": "curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-trial-yuexin-miao"
+    },
+    {
+      "id": "25-classic-blue-2007",
+      "name": "经典蓝 2007",
+      "group": "cn-v2",
+      "kind": "concept-ad",
+      "shell": "codex-glass-v2",
+      "galleryReady": true,
+      "note": "整窗 Codex 玻璃态预览；勿当作换肤 background 导入",
+      "concept": {
+        "path": "docs/ads/25-classic-blue-2007.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/ads/25-classic-blue-2007.jpg",
+        "bytes": 409580
+      },
+      "wallpaper": {
+        "path": "presets/preset-classic-blue-2007/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007/background.jpg",
+        "bytes": 293167
+      },
+      "livePreview": null,
+      "conceptPrompt": {
+        "path": "presets/preset-classic-blue-2007/concept-prompt.md",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007/concept-prompt.md",
+        "bytes": 1382
+      },
+      "wallpaperPrompt": {
+        "path": "presets/preset-classic-blue-2007/wallpaper-prompt.md",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007/wallpaper-prompt.md",
+        "bytes": 715
+      },
+      "presetId": "preset-classic-blue-2007",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007",
+      "installCmd": "curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-classic-blue-2007"
     }
   ],
   "installables": [
@@ -469,6 +502,18 @@
       "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-azure-matrix",
       "galleryReady": false,
       "installCmd": "curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-azure-matrix"
+    },
+    {
+      "id": "preset-classic-blue-2007",
+      "wallpaper": {
+        "path": "presets/preset-classic-blue-2007/background.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007/background.jpg",
+        "bytes": 293167
+      },
+      "livePreview": null,
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007",
+      "galleryReady": true,
+      "installCmd": "curl -fsSL https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/scripts/apply-hub-skin.sh | bash -s -- preset-classic-blue-2007"
     },
     {
       "id": "preset-cyber-neon",

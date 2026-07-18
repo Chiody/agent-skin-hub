@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "agent-skin-hub",
   "description": "Codex 桌面端开源皮肤合集。ProvDex / 官网按需下载，不塞进安装包。",
-  "updatedAt": "2026-07-17T13:35:16.445Z",
+  "updatedAt": "2026-07-18T02:02:01.686Z",
   "homepage": "https://github.com/Chiody/agent-skin-hub",
   "compatibleWith": [
     "provdex-codex-appearance",
@@ -52,6 +52,22 @@
       "wallpaperUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-azure-matrix/background.jpg",
       "previewUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/docs/previews/preset-azure-matrix.jpg",
       "sourceUrl": "",
+      "risk": "low",
+      "tags": [
+        "abstract"
+      ]
+    },
+    {
+      "id": "preset-classic-blue-2007",
+      "name": "经典蓝 2007",
+      "tagline": "那年在线的浅蓝，今天继续写代码。",
+      "image": "background.jpg",
+      "bytes": 293167,
+      "path": "presets/preset-classic-blue-2007",
+      "downloadBase": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007",
+      "wallpaperUrl": "https://cdn.jsdelivr.net/gh/Chiody/agent-skin-hub@main/presets/preset-classic-blue-2007/background.jpg",
+      "previewUrl": "",
+      "sourceUrl": "https://github.com/angziii/codex-qq-skin",
       "risk": "low",
       "tags": [
         "abstract"

@@ -28,6 +28,7 @@ const CONCEPTS = [
   { id: "10-vtuber-glass", file: "10-vtuber-glass.jpg", name: "虚拟偶像", group: "cn-v2", presetId: "preset-trial-vtuber" },
   { id: "11-koi-glass", file: "11-koi-glass.jpg", name: "锦鲤好运", group: "cn-v2", presetId: "preset-trial-koi" },
   { id: "24-yuexin-miao-glass", file: "24-yuexin-miao-glass.jpg", name: "月薪喵", group: "cn-v2", presetId: "preset-trial-yuexin-miao" },
+  { id: "25-classic-blue-2007", file: "25-classic-blue-2007.jpg", name: "经典蓝 2007", group: "cn-v2", presetId: "preset-classic-blue-2007" },
   // intl: kept in map for regen; pack.json galleryReady=false → not published
   { id: "12-synthwave", file: "12-synthwave.jpg", name: "Synthwave 80s", group: "intl", presetId: "preset-trial-synthwave" },
   { id: "13-nordic-minimal", file: "13-nordic-minimal.jpg", name: "北欧极简", group: "intl", presetId: "preset-trial-nordic" },
